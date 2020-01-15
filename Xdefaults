@@ -1,0 +1,5 @@
+URxvt*font:                 xft:DejaVu Sans Mono for Powerline:regular:size=12
+URxvt*imFont:               xft:DejaVu Sans Mono for Powerline:regular:size=12 
+URxvt*boldFont:             xft:DejaVu Sans Mono for Powerline:bold:size=12
+URxvt*italicFont:           xft:DejaVu Sans Mono for Powerline:italic:size=12
+URxvt*boldItalicFont:       xft:DejaVu Sans Mono for Powerline:bold:italic:size=12

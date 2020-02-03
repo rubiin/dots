@@ -41,17 +41,17 @@ tmux_conf_new_session_prompt=false
 tmux_conf_theme_24b_colour=false
 
 # window style
-tmux_conf_theme_window_fg='default'
-tmux_conf_theme_window_bg='default'
+tmux_conf_theme_window_fg='colour247'
+tmux_conf_theme_window_bg='colour236'
 
 # highlight focused pane (tmux >= 2.1), possible values are:
 #   - true
 #   - false (default)
-tmux_conf_theme_highlight_focused_pane=false
+tmux_conf_theme_highlight_focused_pane=true
 
 # focused pane colours:
-tmux_conf_theme_focused_pane_fg='default'
-tmux_conf_theme_focused_pane_bg='#0087d7'               # light blue
+tmux_conf_theme_focused_pane_fg='colour250'
+tmux_conf_theme_focused_pane_bg='black'               # light blue
 
 # pane border style, possible values are:
 #   - thin (default)
@@ -62,8 +62,6 @@ tmux_conf_theme_pane_border_style=thin
 tmux_conf_theme_pane_border='#444444'                   # gray
 tmux_conf_theme_pane_active_border='#00afff'            # light blue
 
-set -g window-style 'fg=colour247,bg=colour236'
-set -g window-active-style 'fg=colour250,bg=black'
 
 # pane indicator colours
 tmux_conf_theme_pane_indicator='#00afff'                # light blue
@@ -115,7 +113,7 @@ tmux_conf_theme_window_status_format='#I #W'
 #tmux_conf_theme_window_status_format='#I #W#{?window_bell_flag,🔔,}#{?window_zoomed_flag,🔍,}'
 
 # window current status style
-#   - built-in variables are:
+#  - built-in variables are:
 #     - #{circled_window_index}
 #     - #{circled_session_name}
 #     - #{hostname}

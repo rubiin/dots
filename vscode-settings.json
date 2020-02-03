@@ -1,51 +1,61 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "'mononoki', 'Roboto Mono Light', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.cursorBlinking": "phase",
-    "editor.quickSuggestionsDelay": 20,
-    "editor.snippetSuggestions": "bottom",
-    "editor.renderIndentGuides": false,
-    "editor.wrappingColumn": 0,
-
+    "git.enableSmartCommit": true,
     "window.zoomLevel": 0,
-    "window.showFullPath": true,
-    
-    "terminal.external.linuxExec": "urxvt",
-
+    "workbench.editor.enablePreview": false,
+    "git.autofetch": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "sync.gist": "00e71c13335ba61e077d40f4fb0b9b6a",
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 3000,
-
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "/home/vicky/anaconda/bin/pylint",
-    "python.linting.lintOnSave": true,
-    "python.linting.pylintArgs": ["--extension-pkg-whitelist=numpy"],
-
-    "spellchecker.language": "en_US",
-    "spellchecker.ignoreWordsList": [
-        "config"
-    ],
-    "spellchecker.documentTypes": [
-        "markdown",
+    "terminal.integrated.rendererType": "dom",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+"editor.fontFamily": "'Fira Code'",
+"editor.fontLigatures": true,
+"editor.fontWeight": "400" ,
+    "cSpell.language": "en,en-US",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
         "latex",
-        "plaintext"
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "yml"
     ],
-    "spellchecker.ignoreRegExp": [
-        "/\\\\(.*\\\\.(jpg|jpeg|png|md|gif|svg|pdf|PDF|SVG|JPG|JPEG|PNG|MD|GIF)\\\\)/g",
-        "/((http|https|ftp|git)\\\\S*)/g",
-        "/^(```\\\\s*)(\\\\w+)?(\\\\s*[\\\\w\\\\W]+?\\\\n*)(```\\\\s*)\\\\n*$/gm"
-    ],
-    "spellchecker.ignoreFileExtensions": [
-        ".env",
-        ".json",
-        ".py"
-    ],
-    "spellchecker.checkInterval": 3000,
-
-    "markdown.preview.fontFamily": "'Roboto', 'Segoe WPC', 'Segoe UI', 'SFUIText-Light', 'HelveticaNeue-Light'",
-
-    "window.openFoldersInNewWindow": "on",
-    "window.reopenFolders": "all",
-    "workbench.activityBar.visible": false
+    "git.confirmSync": false,
+    "todo-tree.defaultHighlight": {},
+    "editor.fontFamily": "Fira Code",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {},
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
+    "editor.tabSize": 2
 }

@@ -10,6 +10,7 @@ nvm install $1 --reinstall-packages-from=$2
 nvm uninstall $2
 }
 
+tmux_end="pkill -f tmux";
 
 ## npm aliases
 alias ni="npm install";

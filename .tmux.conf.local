@@ -291,4 +291,15 @@ set -g mouse on
 
 # move status line to top
 #set -g status-position top
-bind y set-window-option synchronize-panes
+set -sg escape-time 0
+unbind %    # split-window -h
+unbind '"'  # split-window
+bind | split-window -h -c "#{pane_current_path}"
+bind _ split-window -v -c "#{pane_current_path}"
+bind-key Space set-window-option synchronize-panes
+
+# Kill pane/window/session shortcuts
+bind x kill-pane
+bind X kill-window
+bind C-x confirm-before -p "kill other windows? (y/n)" "kill-window -a"
+bind Q confirm-before -p "kill-session #S? (y/n)" kill-session

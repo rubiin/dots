@@ -51,7 +51,7 @@ tmux_conf_theme_highlight_focused_pane=true
 
 # focused pane colours:
 tmux_conf_theme_focused_pane_fg='colour250'
-tmux_conf_theme_focused_pane_bg='black'               # light blue
+tmux_conf_theme_focused_pane_bg='black'              
 
 # pane border style, possible values are:
 #   - thin (default)
@@ -95,7 +95,7 @@ tmux_conf_theme_status_attr='none'
 #     - #{hostname_ssh}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_terminal_title='#h ❐ #S ● #I #W'
+tmux_conf_theme_terminal_title='#h'
 
 # window status style
 #   - built-in variables are:
@@ -144,9 +144,9 @@ tmux_conf_theme_window_status_last_attr='none'
 
 # status left/right sections separators
 tmux_conf_theme_left_separator_main=''  # /!\ you don't need to install Powerline
-tmux_conf_theme_left_separator_sub=''   #   you only need fonts patched with
+tmux_conf_theme_left_separator_sub='\uE0B1'   #   you only need fonts patched with
 tmux_conf_theme_right_separator_main='' #   Powerline symbols or the standalone
-tmux_conf_theme_right_separator_sub=''  #   PowerlineSymbols.otf font
+tmux_conf_theme_right_separator_sub='\uE0B3'  #   PowerlineSymbols.otf font
 #tmux_conf_theme_left_separator_main='\uE0B0'  # /!\ you don't need to install Powerline
 #tmux_conf_theme_left_separator_sub='\uE0B1'   #   you only need fonts patched with
 #tmux_conf_theme_right_separator_main='\uE0B2' #   Powerline symbols or the standalone
@@ -189,6 +189,7 @@ tmux_conf_theme_status_right_fg='#8a8a8a,#e4e4e4,#000000' # light gray, white, b
 tmux_conf_theme_status_right_bg='#080808,#0D73CC,#BD93F9' # dark gray, red, white
 tmux_conf_theme_status_right_attr='none,none,bold'
 
+
 # pairing indicator
 tmux_conf_theme_pairing='👓 '          # U+1F453
 tmux_conf_theme_pairing_fg='none'
@@ -196,7 +197,7 @@ tmux_conf_theme_pairing_bg='none'
 tmux_conf_theme_pairing_attr='none'
 
 # prefix indicator
-tmux_conf_theme_prefix='⌨ '            # U+2328
+tmux_conf_theme_prefix='⌨ '  
 tmux_conf_theme_prefix_fg='none'
 tmux_conf_theme_prefix_bg='none'
 tmux_conf_theme_prefix_attr='none'
@@ -297,6 +298,20 @@ unbind '"'  # split-window
 bind | split-window -h -c "#{pane_current_path}"
 bind _ split-window -v -c "#{pane_current_path}"
 bind-key Space set-window-option synchronize-panes
+
+# Use Alt-arrow keys without prefix key to switch panes
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
+
+# resize panes
+bind -r H resize-pane -L 5   # 5 px bigger to the left
+bind -r J resize-pane -D 5   # 5 px bigger down
+bind -r K resize-pane -U 5   # 5 px bigger up
+bind -r L resize-pane -R 5   # 5 px bigger right
+
 
 # Kill pane/window/session shortcuts
 bind x kill-pane

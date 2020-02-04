@@ -10,6 +10,13 @@ nvm install $1 --reinstall-packages-from=$2
 nvm uninstall $2
 }
 
+# tmux
+
+alias t="tmux"
+alias ta="t a -t"
+alias tls="t ls"
+alias tn="t new -t"
+
 tmux_end="pkill -f tmux";
 
 ## npm aliases

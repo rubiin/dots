@@ -269,10 +269,23 @@ mode "resize" {
 # START AND CONFIGURE i3bar
 
 bar {
+
+	# for default i3status
         # start using custom config file (full path)
-        status_command       i3status -c ~/.config/i3/i3status.conf
-        tray_padding         3
-        font pango:Roboto    9
+        # status_command       i3status -c ~/.config/i3/i3status.conf
+        # tray_padding         3
+        # font pango:Roboto    9
+	
+	
+	# we are now using bumblebee-bar, install at https://github.com/tobi-wan-kenobi/bumblebee-status
+	
+font pango:DejaVu Sans Mono, FontAwesome 9
+status_command ~/.local/bin/bumblebee-status -m cpu memory battery time pasink pasource -p time.format="%H:%M" -t onedark-powerline
+position top
+
+
+
+
 
 	colors {
 		# whole color settings

@@ -280,7 +280,7 @@ bar {
 	# we are now using bumblebee-bar, install at https://github.com/tobi-wan-kenobi/bumblebee-status
 	
 font pango:DejaVu Sans Mono, FontAwesome 9
-status_command ~/.local/bin/bumblebee-status -m cpu memory battery time pasink pasource -p time.format="%H:%M" -t onedark-powerline
+status_command ~/.local/bin/bumblebee-status -m cpu memory datetime brightness amixer redshift caffeine dunst -p time.format="%H:%M" -t onedark-powerline
 position top
 
 

@@ -5,6 +5,11 @@
 # choose your magic key
 set $mod Mod4
 
+# font
+font pango: System San Francisco Display 10
+
+# thin borders
+hide_edge_borders both
 
 # APPEARANCE SETTINGS
 
@@ -46,17 +51,16 @@ exec --no-startup-id feh --bg-fill ~/.config/i3/asakusa.png
 # shadows and transitions with compton
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 
-# i3-gaps
-# smart_borders on      # borders only if more than one container in the workspace
-# smart_gaps on         # gaps only if more than one container in the workspace
-# gaps inner 15           # global gap size
-
-
 # ON STARTUP
 
 # start apps automatically
 exec --no-startup-id /usr/bin/nm-applet
-#exec --no-startup-id dropbox start
+exec --no-startup-id redshift
+
+# start betterlock screen on startup. Add the lockscreen picture of choice in the directory below
+
+exec --no-startup-id betterlockscreen -u ~/Pictures/wallpaper
+
 
 # enable numlock
 exec --no-startup-id numlockx on
@@ -68,16 +72,6 @@ exec xrandr --output eDP-1 --brightness 0.8
 # KEY BINDINGS
 
 # brightness adjustment (pre-defined levels)
-#bindsym $mod+Shift+F6 exec xrandr --output eDP-1 --brightness 1
-#bindsym $mod+F6       exec xrandr --output eDP-1 --brightness 0.8
-#bindsym $mod+F5       exec xrandr --output eDP-1 --brightness 0.5
-#bindsym $mod+F7       exec xrandr --output eDP-1 --brightness 0.1
-
-# volume control (increment)
-#bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
-#bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
-#bindsym XF86AudioMute exec amixer -q set Master toggle
-
 
 
 # Pulse Audio controls
@@ -91,16 +85,15 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 
 
 # start a terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
- bindsym $mod+d exec dmenu_run
+# start dmenu (a program launcheqr)
 
-# start j4-dmenu-desktop (only displays applications shipping a desktop file. It is a wrapper around dmenu)
-#bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -fn 'Roboto-30' -l 5 -nb '#334455' -nf '#aacccc' -sb '#000000' -sf '#22ddcc'"
+bindsym $mod+d exec ~/.config/i3/rofi.sh  
+
 
 # MANAGE WINDOWS
 
@@ -155,13 +148,11 @@ bindsym $mod+a            focus parent
 #bindsym $mod+d           focus child
 
 
-# SCREENSHOTS WITH MAIM
 
 # take screenshot with Print key (requires maim)
 # with Shift: take screenshot of active window
-bindsym                 Print exec --no-startup-id maim                               ~/data/pictures/screenshots/$(date +%F-%T).png && notify-send "png screenshot taken"
-bindsym --release Shift+Print exec --no-startup-id maim -i $(xdotool getactivewindow) ~/data/pictures/screenshots/$(date +%F-%T).png && notify-send "png screenshot of window taken"
-
+bindsym Print exec --no-startup-id   xfce4-screenshooter --fullscreen
+bindsym --release Shift+Print exec --no-startup-id xfce4-screenshooter --region
 
 # CONTROL i3
 
@@ -172,16 +163,15 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3 and end X session?' -b 'Yes, exit i3' 'i3-msg exit'"
 
-
 # MANAGE WORKSPACES
 
 # name the workspaces (icons require fontawesome)
 set $tag1  "1:  www"
-set $tag2  "2:  code"
-set $tag3  "3:  notes"
+set $tag2  "2:  terminal"
+set $tag3  "3:  ide"
 set $tag4  "4:  email"
 set $tag5  "5:  files"
-set $tag6  "6: six"
+set $tag6  "6:  media"
 set $tag7  "7: seven"
 set $tag8  "8: eight"
 set $tag9  "9: nine"
@@ -217,17 +207,19 @@ bindsym $mod+Shift+9 move container to workspace $tag9
 bindsym $mod+Shift+0 move container to workspace $tag10
 
 # automatically start programs in specific workspaces on login
-exec --no-startup-id i3-msg "workspace $tag1; exec /usr/bin/firefox"
-exec --no-startup-id i3-msg "workspace $tag2; exec terminator"
-exec --no-startup-id i3-msg "workspace $tag3; exec /usr/bin/code"
-exec --no-startup-id i3-msg "workspace $tag4; exec /usr/bin/thunderbird"
+exec --no-startup-id i3-msg "workspace $tag1; exec firefox"
+exec --no-startup-id i3-msg "workspace $tag2; exec kitty"
+exec --no-startup-id i3-msg "workspace $tag3; exec /usr/bin/"
 
 # assign some applications to certain workspaces
-# assign [class="Firefox"] $tag1
-# assign [class="Visual Studio Code"] $tag3
+
+assign [class="Firefox"] $tag1
+assign [class="kitty"] $tag2
+assign [class="vlc"] $tag6
+assign [class="Deluge"] $tag5
 
 # disable borders for some applications
-#for_window [class="^Icedove$"] border none
+#for_window [class="^*$"] border none
 
 # set specific apps to show as floating windows
 #for_window [class="^Viewnior$"] floating enable
@@ -270,24 +262,11 @@ mode "resize" {
 
 bar {
 
-	# for default i3status
-        # start using custom config file (full path)
-        # status_command       i3status -c ~/.config/i3/i3status.conf
-        # tray_padding         3
-        # font pango:Roboto    9
-	
-	
-	# we are now using bumblebee-bar, install at https://github.com/tobi-wan-kenobi/bumblebee-status
-	
 font pango:DejaVu Sans Mono, FontAwesome 9
 status_command ~/.local/bin/bumblebee-status -m cpu memory datetime brightness amixer redshift caffeine dunst -p time.format="%H:%M" -t onedark-powerline
 position top
 
-
-
-
-
-	colors {
+colors {
 		# whole color settings
 		background   $black
 		statusline   $white
@@ -299,15 +278,19 @@ position top
 		inactive_workspace $grey       $black      $white
 		urgent_workspace   $valencia   $valencia   $black
 	}
-	# i3bar position
-	position top
-        
-        # height of the bar in pixels
-        # height 25
+
 }
+
+
+
+# Application shortcut
+bindsym $mod+c exec nemo
+#bindsym $mod+Shift+c exec codium
 
 
 # LOCK, SUSPEND KEYBINDS
 
-bindsym Control+$mod+l exec --no-startup-id i3lock -i ~/lockimage.png && xrandr --output eDP-1 --brightness 0.3
-bindsym Control+$mod+s exec --no-startup-id i3lock -i ~/lockimage.png && xrandr --output eDP-1 --brightness 0.3 && systemctl suspend
+bindsym Control+$mod+l exec betterlockscreen -l blur
+
+#bindsym Control+$mod+l exec --no-startup-id i3lock -i ~/.config/i3/lock.png && xrandr --output eDP-1 --brightness 0.3
+#bindsym Control+$mod+s exec --no-startup-id i3lock -i ~/.config/i3/lock.png && xrandr --output eDP-1 --brightness 0.3 && systemctl suspend

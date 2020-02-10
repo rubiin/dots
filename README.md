@@ -1,10 +1,12 @@
 # i3/Linux Config Files (Tokyo Rice)
 
-My config files for various aspects of my (first rice!) set up with i3-gaps on Linux.
+My config files for various aspects of my (first rice!) set up with i3 on Linux.
+
+Arch users can directly run the install-packages.sh . For other distros, you can view the file and install the dependencies manaully. Also, if you want to get most of the repo, use the first theme as its weekly updated by me (Rubin)
 
 Includes two subtly different themes. The wallpapers are photos I took myself in Tokyo. Feel free to use them only on your own desktops, if you wish. :)
 
-You can check out my blog post on the set up [here](https://victoria.dev/verbose/how-a-lifelong-windows-user-switched-to-linux...-the-hard-way/). You can ask me about it on Twitter: [@victoriadotdev](https://twitter.com/victoriadotdev).
+You can check out my blog post on the set up [here](https://victoria.dev/verbose/how-a-lifelong-windows-user-switched-to-linux...-the-hard-way/).
 
 ***
 
@@ -20,17 +22,13 @@ You can check out my blog post on the set up [here](https://victoria.dev/verbose
 
 ## Specifications  
 * __Debian__
-  * Debian GNU/Linux 9.0 (stretch) - https://www.debian.org/
-* __i3-gaps__
-  * i3 version 4.13
-  * i3-gaps: https://github.com/Airblader/i3
+  * Arch Linux - https://www.archlinux.org/
+  
   * typical config file path: ~/.config/i3/config
 * __i3status__
   * config for i3bar: http://i3wm.org/i3status/manpage.html
   * typical config file path: ~/.config/i3status/config
-* __urxvt__
-  * rxvt-unicode (urxvt) v9.22
-  * typical config file path: ~/.Xdefaults
+* __kitty__
 * __dunst__
   * lightweight notification daemon - https://dunst-project.org/
   * typical config file path: ~/.config/dunst/dunstrc

@@ -31,3 +31,10 @@ alias rmn="rm -rf node_modules";
 alias flush-npm="rm -rf node_modules && npm i && say NPM is done";
 alias nicache="npm install --prefer-offline";
 alias nioff="npm install --offline";
+alias nid='npm install --save-dev'
+alias nig='npm install --global'
+alias nt='npm test'
+alias nit='npm install && npm test'
+alias nk='npm link'
+alias nf='npm cache clean && rm -rf node_modules && npm install'
+alias nlg='npm list --global --depth=0'

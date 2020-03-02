@@ -4,9 +4,9 @@ My config files for various aspects of my (first rice!) set up with i3 on Linux.
 
 Arch users can directly run the install-packages.sh . For other distros, you can view the file and install the dependencies manaully. Also, if you want to get most of the repo, use the first theme as its weekly updated by me (Rubin)
 
-Includes two subtly different themes. The wallpapers are photos I took myself in Tokyo. Feel free to use them only on your own desktops, if you wish. :)
+Includes two subtly different themes. The wallpapers are photos Vitoria took in Tokyo. Feel free to use them only on your own desktops, if you wish. :)
 
-You can check out my blog post on the set up [here](https://victoria.dev/verbose/how-a-lifelong-windows-user-switched-to-linux...-the-hard-way/).
+You can check out her blog post on the set up [here](https://victoria.dev/verbose/how-a-lifelong-windows-user-switched-to-linux...-the-hard-way/).
 
 ***
 

@@ -25,16 +25,20 @@ You can check out her blog post on the set up [here](https://victoria.dev/verbos
   * Arch Linux - https://www.archlinux.org/
   
   * typical config file path: ~/.config/i3/config
-* __i3status__
-  * config for i3bar: http://i3wm.org/i3status/manpage.html
-  * typical config file path: ~/.config/i3status/config
-* __kitty__
+* __bumblebeestatus__
+  * config is in the ~/.config/i3/config on the i3bars section
+* __alacritty__
+ * typical config file path: ~/.config/alacritty/alacritty.yml
 * __dunst__
   * lightweight notification daemon - https://dunst-project.org/
   * typical config file path: ~/.config/dunst/dunstrc
 * __Compton__
   * standalone composite manager: https://wiki.archlinux.org/index.php/Compton
   * typical config file path: ~/.config/compton.conf
+* __redshift__
+  * config is in the ~/.config/redshift.conf
+* __tmux__
+  * config is in the ~/tmux.local.conf
 * __Visual Studio Code__
   * version 1.9.0 - https://code.visualstudio.com/
   * user settings: File > Preferences > User Settings

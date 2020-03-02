@@ -28,7 +28,7 @@ You can check out her blog post on the set up [here](https://victoria.dev/verbos
 * __bumblebeestatus__
   * config is in the ~/.config/i3/config on the i3bars section
 * __alacritty__
- * typical config file path: ~/.config/alacritty/alacritty.yml
+  * typical config file path: ~/.config/alacritty/alacritty.yml
 * __dunst__
   * lightweight notification daemon - https://dunst-project.org/
   * typical config file path: ~/.config/dunst/dunstrc

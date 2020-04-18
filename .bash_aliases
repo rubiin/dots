@@ -23,6 +23,7 @@ alias tmux_end="pkill -f tmux";
 alias ni="npm install";
 alias nrs="npm run start -s --";
 alias nrb="npm run build -s --";
+alias nrf="npm run format -s --";
 alias nrd="npm run start:dev -s --";
 alias nrt="npm run test -s --";
 alias nrtw="npm run test:watch -s --";

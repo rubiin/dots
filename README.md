@@ -6,7 +6,7 @@ Arch users can directly run the install-packages.sh . For other distros, you can
 
 Includes two subtly different themes. The wallpapers are photos Vitoria took in Tokyo. Feel free to use them only on your own desktops, if you wish. :)
 
-You can check out her blog post on the set up [here](https://victoria.dev/verbose/how-a-lifelong-windows-user-switched-to-linux...-the-hard-way/).
+You can check out instructions on the set up [here](https://github.com/rubiin/dotfiles/blob/master/instructions.md).
 
 ***
 

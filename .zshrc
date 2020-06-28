@@ -72,6 +72,7 @@ plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
+source $HOME/.asdf/asdf.sh
 
 # User configuration
 
@@ -100,6 +101,7 @@ source $HOME/.bash_aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$HOME/.local/bin/:${PATH}"
+export GOPATH=$HOME/go
 
 export NVM_DIR="$HOME/.nvm"
 declare -a NODE_GLOBALS=(`find ~/.nvm/versions/node -maxdepth 3 -type l -wholename '*/bin/*' | xargs -n1 basename | sort | uniq`)
@@ -116,3 +118,4 @@ for cmd in "${NODE_GLOBALS[@]}"; do
     eval "${cmd}(){ unset -f ${NODE_GLOBALS}; load_nvm; ${cmd} \$@ }"
 done
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH=$PATH:/usr/local/go/bin

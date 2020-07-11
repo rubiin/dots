@@ -58,10 +58,9 @@
     "go.autocompleteUnimportedPackages": true,
     "go.buildOnSave": "off",
     "go.lintOnSave": "file",
-    "go.vetOnSave": "off",
+    "go.vetOnSave": "true",
     "go.buildTags": "",
     "go.buildFlags": [],
-    "go.lintTool": "golint",
     "go.lintFlags": [],
     "go.vetFlags": [],
     "go.testOnSave": false,
@@ -79,4 +78,9 @@
     ],
     "go.delveConfig": {},
     "go.gopath": "~/go",
+    "go.lintTool": "revive",
+   "go.lintFlags": [
+        "-config=~/go/revive-rules.toml",
+        "-exclude=vendor/..."
+    ]
 }

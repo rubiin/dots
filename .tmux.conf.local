@@ -1,3 +1,5 @@
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-yank'
 
 
 # -- navigation ----------------------------------------------------------------
@@ -318,3 +320,4 @@ bind x kill-pane
 bind X kill-window
 bind C-x confirm-before -p "kill other windows? (y/n)" "kill-window -a"
 bind Q confirm-before -p "kill-session #S? (y/n)" kill-session
+run '~/.tmux/plugins/tpm/tpm'

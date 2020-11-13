@@ -3,15 +3,26 @@ alias myzsh='source ~/.zshrc'
 alias fixvlc='mkdir ~/.cache/vlc'
 alias vmc='git diff --name-only --diff-filter=U'
 alias updatef='sudo apt-fast update;sudo apt-fast upgrade'
-alias code=codium
 nvminstall() {
 nvm install $1 --reinstall-packages-from=$2
 nvm uninstall $2
 }
 
+ffmpeg_convert(){
+  for i in *.{avi,flv,m4v,mov,wmv,mp4,MP4,TS,mkv};
+  do ffmpeg -n -loglevel error -i "$i" -vcodec libx264 -crf 28 -preset faster -tune film "cc${i}"; 
+  done
+}
 
-# tmux
+zsh_fix_history(){
+  mv ~/.zsh_history ~/.zsh_history_bad
+  strings ~/.zsh_history_bad > ~/.zsh_history
+  fc -R ~/.zsh_history
+  rm ~/.zsh_history_bad
+}
 
+# tmux 
+alias t="tmux"
 alias ta="t a -t"
 alias tls="t ls"
 alias tn="t new -t"
@@ -30,6 +41,7 @@ alias rmn="rm -rf node_modules";
 alias flush-npm="rm -rf node_modules && npm i && say NPM is done";
 alias nicache="npm install --prefer-offline";
 alias nioff="npm install --offline";
+alias nrm="npm run typeorm:run"
 
 ## yarn aliases
 alias yi="yarn install";
@@ -88,3 +100,12 @@ dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/[
 # Bash into running container
 dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 
+## fzf aliases
+fo() {
+  IFS=$'\n' out=("$(fzf-tmux --query="$1" --exit-0 --expect=ctrl-o,ctrl-e)")
+  key=$(head -1 <<< "$out")
+  file=$(head -2 <<< "$out" | tail -1)
+  if [ -n "$file" ]; then
+    [ "$key" = ctrl-o ] && open "$file" || ${EDITOR:-vim} "$file"
+  fi
+}

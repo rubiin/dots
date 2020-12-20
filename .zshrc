@@ -68,12 +68,11 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions asdf)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
-source $HOME/.asdf/asdf.sh
-
+. ~/.asdf/plugins/java/set-java-home.bash
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -92,30 +91,18 @@ source $HOME/.asdf/asdf.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
+    # plugins, and themes. Aliases can be placed here, though oh-my-zsh
+    # users are encouraged to define aliases within the ZSH_CUSTOM folder.
+    # For a full list of active aliases, run `alias`.
+    #
+    # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$HOME/.local/bin/:${PATH}"
-export GOPATH=$HOME/go
 
-export NVM_DIR="$HOME/.nvm"
-declare -a NODE_GLOBALS=(`find ~/.nvm/versions/node -maxdepth 3 -type l -wholename '*/bin/*' | xargs -n1 basename | sort | uniq`)
 
-NODE_GLOBALS+=("node")
-NODE_GLOBALS+=("nvm")
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/bitcomplete bit
 
-load_nvm () {
-    export NVM_DIR=~/.nvm
-    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-}
-
-for cmd in "${NODE_GLOBALS[@]}"; do
-    eval "${cmd}(){ unset -f ${NODE_GLOBALS}; load_nvm; ${cmd} \$@ }"
-done
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH=$PATH:/usr/local/go/bin

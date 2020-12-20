@@ -1,12 +1,9 @@
 alias vim ='nvim'
+alias code='code-insiders'
 alias myzsh='source ~/.zshrc'
 alias fixvlc='mkdir ~/.cache/vlc'
 alias vmc='git diff --name-only --diff-filter=U'
 alias updatef='sudo apt-fast update;sudo apt-fast upgrade'
-nvminstall() {
-nvm install $1 --reinstall-packages-from=$2
-nvm uninstall $2
-}
 
 ffmpeg_convert(){
   for i in *.{avi,flv,m4v,mov,wmv,mp4,MP4,TS,mkv};

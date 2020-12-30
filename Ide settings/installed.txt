@@ -1,0 +1,3 @@
+com.intellij.database
+com.mallowigi
+com.mallowigi.idea

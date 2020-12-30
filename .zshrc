@@ -72,7 +72,6 @@ plugins=(git zsh-autosuggestions asdf)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
-. ~/.asdf/plugins/java/set-java-home.bash
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -100,7 +99,7 @@ source $HOME/.bash_aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$HOME/.local/bin/:${PATH}"
-
+. /usr/share/autojump/autojump.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 autoload -U +X bashcompinit && bashcompinit

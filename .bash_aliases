@@ -1,9 +1,10 @@
 alias vim ='nvim'
-alias code='code-insiders'
 alias myzsh='source ~/.zshrc'
 alias fixvlc='mkdir ~/.cache/vlc'
 alias vmc='git diff --name-only --diff-filter=U'
 alias updatef='sudo apt-fast update;sudo apt-fast upgrade'
+alias code='codium'
+alias kb="kubectl"
 
 ffmpeg_convert(){
   for i in *.{avi,flv,m4v,mov,wmv,mp4,MP4,TS,mkv};
@@ -12,10 +13,13 @@ ffmpeg_convert(){
 }
 
 zsh_fix_history(){
-  mv ~/.zsh_history ~/.zsh_history_bad
-  strings ~/.zsh_history_bad > ~/.zsh_history
-  fc -R ~/.zsh_history
-  rm ~/.zsh_history_bad
+cd ~
+mv .zsh_history .zsh_history_old
+strings .zsh_history_old > .zsh_history
+fc -R .zsh_history
+}
+yarn_audit_fix(){
+  npm i --package-lock-only && rm yarn.lock && npm audit fix && yarn import && rm package-lock.json
 }
 
 # tmux 

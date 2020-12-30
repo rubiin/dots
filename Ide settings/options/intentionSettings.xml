@@ -1,0 +1,38 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="CSS/Change color" />
+    <ignoreAction name="CSS/Convert color to HEX" />
+    <ignoreAction name="CSS/Convert color to HSL/HSLA" />
+    <ignoreAction name="CSS/Convert color to HWB" />
+    <ignoreAction name="CSS/Convert color to RGB/RGBA" />
+    <ignoreAction name="CSS/Convert color to gray" />
+    <ignoreAction name="CSS/Create Selector" />
+    <ignoreAction name="CSS/Expand CSS shorthand property" />
+    <ignoreAction name="CSS/Extract image" />
+    <ignoreAction name="CSS/Extract inline CSS" />
+    <ignoreAction name="CSS/Extract ruleset" />
+    <ignoreAction name="CSS/Replace quotes" />
+    <ignoreAction name="CSS/Replace var(...) with its fallback value" />
+    <ignoreAction name="CSS/Replace with color name" />
+    <ignoreAction name="CSS/Update background-image size" />
+    <ignoreAction name="Flow JS/Specify variable type explicitly" />
+    <ignoreAction name="Language injection/Edit injected fragment" />
+    <ignoreAction name="LightEdit mode/Open file in project..." />
+    <ignoreAction name="Markdown/Hide errors in code fences" />
+    <ignoreAction name="React/Convert to class component" />
+    <ignoreAction name="React/Convert to functional component" />
+    <ignoreAction name="XML/Add Xsi schema location for external resource" />
+    <ignoreAction name="XML/Choose Color" />
+    <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="XML/Convert CDATA to text" />
+    <ignoreAction name="XML/Convert text to CData" />
+    <ignoreAction name="XML/Fetch external resource" />
+    <ignoreAction name="XML/Insert namespace prefix" />
+    <ignoreAction name="XML/Manually setup external resource" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="XML/Remove tag" />
+    <ignoreAction name="XML/Reset to default namespace" />
+    <ignoreAction name="XML/Split current tag" />
+  </component>
+</application>

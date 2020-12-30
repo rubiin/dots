@@ -1,5 +1,9 @@
 [user]
 	email = roobin.bhandari@gmail.com
-	name = Rubin
+	name = rubin bhandari
 [cola]
 	spellcheck = false
+[credential]
+	helper = cache --timeout=86400
+[pull]
+	ff = only

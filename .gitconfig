@@ -1,9 +1,11 @@
 [user]
 	email = roobin.bhandari@gmail.com
-	name = rubin bhandari
+	name = Rubin Bhandari
 [cola]
 	spellcheck = false
 [credential]
 	helper = cache --timeout=86400
 [pull]
 	ff = only
+[init]
+	defaultBranch = master

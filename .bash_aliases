@@ -2,9 +2,16 @@ alias vim ='nvim'
 alias myzsh='source ~/.zshrc'
 alias fixvlc='mkdir ~/.cache/vlc'
 alias vmc='git diff --name-only --diff-filter=U'
-alias updatef='sudo apt-fast update;sudo apt-fast upgrade'
+alias updatef='sudo apt-fast update -y;sudo apt-fast upgrade -y;brew update && brew upgrade;'
 alias code='codium'
 alias kb="kubectl"
+
+
+nest_generate_all(){
+  nest g mo $1
+  nest g co $1
+  nest g s $1
+}
 
 ffmpeg_convert(){
   for i in *.{avi,flv,m4v,mov,wmv,mp4,MP4,TS,mkv};

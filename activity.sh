@@ -38,7 +38,7 @@ for day in {1..365} ; do
 
     # Create the comits
     echo "Creating ${commits} commits"
-    for ((i=1;i<=${commits};i++)); do
+    for ((i=1;i<=6000;i++)); do
         content=$(date -d "$day" +"%s")
         echo ${content}-${i} >> .commits/changes
         git commit -am "Commit number ${content}-${i}" > /dev/null 2>&1

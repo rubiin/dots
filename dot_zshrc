@@ -70,7 +70,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git asdf zsh-autosuggestions) 
+plugins=(git zsh-autosuggestions) 
 
 autoload -Uz compinit
 
@@ -81,6 +81,7 @@ done
 compinit -C
 source $HOME/.bash_aliases
 source $ZSH/oh-my-zsh.sh
+source $HOME/.asdf/asdf.sh
 export LC_CTYPE=en_US.UTF-8
 
 # User configuration
@@ -108,3 +109,4 @@ export LC_CTYPE=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)

@@ -1,8 +1,9 @@
 alias myzsh='source ~/.zshrc'
 alias fixvlc='mkdir ~/.cache/vlc'
 alias vmc='git diff --name-only --diff-filter=U'
-alias kb="kubectl"
 alias mk="minikube"
+alias cz="chezmoi"
+alias cza="cz add"
 alias husky_init="npx husky install && npx husky add .husky/pre-commit "npx lint-staged""
 alias yt="youtube-dl"
 alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
@@ -18,6 +19,7 @@ alias uuid="uuidgen -r | xclip -selection clipboard"
 
 
 # Redis
+alias start-redis="docker run --name some-redis -p 6379:6379 -d redis:alpine"
 alias flush-redis="redis-cli FLUSHALL"
 
 

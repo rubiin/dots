@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript">
+        <added pattern="KafkaClient.constructor(options)" />
+      </blacklist>
+    </blacklists>
+    <option id="sql.show.column.names.in.select" value="true" />
+  </component>
+</application>

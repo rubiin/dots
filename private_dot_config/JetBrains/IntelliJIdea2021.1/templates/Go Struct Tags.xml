@@ -1,0 +1,8 @@
+<templateSet group="Go Struct Tags">
+  <template name="xml" value="`xml:&quot;$FIELD_NAME$&quot;$END$`" description="`xml:&quot;&quot;`" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FIELD_NAME" expression="snakeCase(fieldName())" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="json" value="`json:&quot;$FIELD_NAME$&quot;$END$`" description="`json:&quot;&quot;`" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FIELD_NAME" expression="snakeCase(fieldName())" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>

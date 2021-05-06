@@ -1,0 +1,16 @@
+[user]
+	email = roobin.bhandari@gmail.com
+	name = Rubin Bhandari
+[credential]
+	helper = cache --timeout=86400
+[pull]
+	ff = only
+[init]
+	defaultBranch = master
+[core]
+	editor = vim
+[branch]
+  sort = -committerdate
+
+[includeIf "gitdir/i:**/workcompany/**"]
+  email = rubiin@workcompany.com

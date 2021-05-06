@@ -1,0 +1,15 @@
+[2021-04-28 14:29:11.802] [info]  Running version 2021.2.2
+[2021-04-28 14:29:13.254] [info]  [fix] Running database repairs
+[2021-04-28 14:29:13.318] [info]  [db] Initialized DB at /home/rubin/.config/Insomnia/insomnia.$TYPE.db
+[2021-04-28 14:29:13.319] [info]  [db] Init responses DB
+[2021-04-28 14:29:13.325] [info]  [localstorage] Initialized at /home/rubin/.config/Insomnia/localStorage
+[2021-04-28 14:29:13.463] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/renderer.html
+[2021-04-28 14:29:13.503] [info]  [ga] Non-interactive General, Launched, 2021.2.2
+[2021-04-28 14:29:13.537] [info]  [ga] Queued event [
+  { name: 't', value: 'event' },
+  { name: 'ec', value: 'General' },
+  { name: 'ea', value: 'Launched' },
+  { name: 'ni', value: '1' },
+  { name: 'el', value: '2021.2.2' }
+]
+[2021-04-28 14:29:14.004] [info]  [updater] Updater not running platform=linux dev=false

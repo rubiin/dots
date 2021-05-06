@@ -1,0 +1,147 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:8000/v1/calculations/withdrawl-info/",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2021-04-13T11:55:35.494Z",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 zstd/1.4.9 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1618314935494
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1618314935497
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (526 seconds), disconnect it\n",
+		"timestamp": 1618314935502
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 2 seems to be dead!\n",
+		"timestamp": 1618314935502
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 2\n",
+		"timestamp": 1618314935502
+	},
+	{
+		"name": "TEXT",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1618314935503
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:8000...\n",
+		"timestamp": 1618314935503
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 8000 (#3)\n",
+		"timestamp": 1618314935503
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST /v1/calculations/withdrawl-info/ HTTP/1.1\r\nHost: localhost:8000\r\nUser-Agent: insomnia/2021.2.2\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 62\r\n\r\n",
+		"timestamp": 1618314935503
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\"amount\":\"5000\",\"idx\":\"d671b3dc-1b26-4270-9074-6a9b982bb15e\"}",
+		"timestamp": 1618314935503
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 62 out of 62 bytes\n",
+		"timestamp": 1618314935503
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1618314941077
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 201 Created\r\n",
+		"timestamp": 1618314941077
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1618314941078
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1618314941078
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 80\r\n",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"50-1ZepKqjdNt0KRF4XIaaoSX6E848\"\r\n",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Tue, 13 Apr 2021 11:55:41 GMT\r\n",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 80 B chunk",
+		"timestamp": 1618314941079
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #3 to host localhost left intact\n",
+		"timestamp": 1618314941220
+	}
+]

@@ -1,0 +1,5 @@
+2021/04/30-13:59:56.238 38587 Reusing MANIFEST /home/rubin/.config/Postman/Partitions/94cb0ca0-8e39-4195-8ca6-9320ad8a8a6c/Local Storage/leveldb/MANIFEST-000001
+2021/04/30-13:59:56.238 38587 Recovering log #4
+2021/04/30-13:59:56.239 38587 Level-0 table #7: started
+2021/04/30-13:59:56.252 38587 Level-0 table #7: 23691 bytes OK
+2021/04/30-13:59:56.256 38587 Delete type=0 #4

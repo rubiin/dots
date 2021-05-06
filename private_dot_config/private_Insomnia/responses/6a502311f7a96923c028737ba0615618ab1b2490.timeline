@@ -1,0 +1,172 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:8000/v1/getTimeAndAttendance/?startDate=2021-04-01&endDate=2021-04-30",
+		"timestamp": 1619520370472
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2021-04-27T10:46:10.472Z",
+		"timestamp": 1619520370472
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 zstd/1.4.9 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1619520370473
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1619520370473
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1619520370473
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1619520370473
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1619520370473
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1619520370480
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:8000...\n",
+		"timestamp": 1619520370486
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 8000 (#0)\n",
+		"timestamp": 1619520370486
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /v1/getTimeAndAttendance/?startDate=2021-04-01&endDate=2021-04-30 HTTP/1.1\r\nHost: localhost:8000\r\nUser-Agent: insomnia/2021.2.2\r\nemployer_idx: 597CA0B4-E49D-EB11-85AA-2818783AB866\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZHgiOiI1OTdDQTBCNC1FNDlELUVCMTEtODVBQS0yODE4NzgzQUI4NjYiLCJlbWFpbCI6ImplbmlzaC5iYWpyYWNoYXJ5YUBvcmJpc3BheS5tZSIsImlhdCI6MTYxOTA5MTY3MiwiZXhwIjoxNjIxNjgzNjcyfQ.AIiTLZ5lGHIUO2gS2x6O1bVG6g2-cBOYBqkKXa4Os54\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1619520370486
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1619520370500
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 404 Not Found\r\n",
+		"timestamp": 1619520370500
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Origin: *\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-DNS-Prefetch-Control: off\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expect-CT: max-age=0\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Frame-Options: SAMEORIGIN\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Strict-Transport-Security: max-age=15552000; includeSubDomains\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Download-Options: noopen\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Content-Type-Options: nosniff\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Permitted-Cross-Domain-Policies: none\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Referrer-Policy: no-referrer\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-XSS-Protection: 0\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 127\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"7f-hnmjL5wD2i4c8iF3TLlI8eu+Mw4\"\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Vary: Accept-Encoding\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Tue, 27 Apr 2021 10:46:10 GMT\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 127 B chunk",
+		"timestamp": 1619520370501
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host localhost left intact\n",
+		"timestamp": 1619520370502
+	}
+]

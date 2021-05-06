@@ -1,0 +1,132 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3000/tour/",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2021-04-11T13:01:48.355Z",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 zstd/1.4.9 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1618146108355
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1618146108356
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 7 seems to be dead!\n",
+		"timestamp": 1618146108359
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 7\n",
+		"timestamp": 1618146108359
+	},
+	{
+		"name": "TEXT",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1618146108359
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3000...\n",
+		"timestamp": 1618146108360
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 3000 (#8)\n",
+		"timestamp": 1618146108360
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /tour/ HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/2021.2.2\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1618146108360
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 4046\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"fce-7+V0SEEgmEAnUp722MLeI9LJI3s\"\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 11 Apr 2021 13:01:48 GMT\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1618146108667
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #8 to host localhost left intact\n",
+		"timestamp": 1618146108667
+	}
+]

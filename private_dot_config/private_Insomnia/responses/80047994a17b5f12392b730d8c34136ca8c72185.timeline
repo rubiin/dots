@@ -1,0 +1,127 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3000/tour/",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2021-04-11T12:55:44.173Z",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 zstd/1.4.9 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1618145744173
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1618145744185
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3000...\n",
+		"timestamp": 1618145744195
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 3000 (#0)\n",
+		"timestamp": 1618145744196
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST /tour/ HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/2021.2.2\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 919\r\n\r\n",
+		"timestamp": 1618145744196
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\n    \"id\": 0,\n    \"name\": \"The Forest Hiker\",\n    \"duration\": 5,\n    \"maxGroupSize\": 25,\n    \"difficulty\": \"easy\",\n    \"ratingsAverage\": 4.7,\n    \"ratingsQuantity\": 37,\n    \"price\": 397,\n    \"summary\": \"Breathtaking hike through the Canadian Banff National Park\",\n    \"description\": \"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\",\n    \"imageCover\": \"tour-1-cover.jpg\",\n    \"images\": [\"tour-1-1.jpg\", \"tour-1-2.jpg\", \"tour-1-3.jpg\"],\n    \"startDates\": [\"2021-04-25,10:00\", \"2021-07-20,10:00\", \"2021-10-05,10:00\"]\n  }",
+		"timestamp": 1618145744196
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 919 out of 919 bytes\n",
+		"timestamp": 1618145744196
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 201 Created\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 917\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"395-077bY1xY6bhYW7Tgl8j/D6It7GI\"\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 11 Apr 2021 12:55:45 GMT\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1618145745532
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1618145745533
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1618145745533
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 917 B chunk",
+		"timestamp": 1618145745533
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host localhost left intact\n",
+		"timestamp": 1618145745534
+	}
+]

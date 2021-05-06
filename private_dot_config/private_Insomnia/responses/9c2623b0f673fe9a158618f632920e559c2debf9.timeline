@@ -1,0 +1,142 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to http://localhost:3000/tour/",
+		"timestamp": 1618146048664
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2021-04-11T13:00:48.664Z",
+		"timestamp": 1618146048665
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.73.0 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 zstd/1.4.9 libidn2/2.3.0 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1618146048665
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1618146048665
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1618146048665
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1618146048665
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1618146048665
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1618146048666
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 6 seems to be dead!\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 6\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "TEXT",
+		"value": "Hostname localhost was found in DNS cache\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying ::1:3000...\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to localhost (::1) port 3000 (#7)\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST /tour/ HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/2021.2.2\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 936\r\n\r\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "DATA_OUT",
+		"value": " {\n    \"id\": 8,\n    \"name\": \"The Northern Lights\",\n    \"duration\": 3,\n    \"maxGroupSize\": 12,\n    \"difficulty\": \"easy\",\n    \"ratingsAverage\": 4.9,\n    \"ratingsQuantity\": 33,\n    \"price\": 1497,\n    \"summary\": \"Enjoy the Northern Lights in one of the best places in the world\",\n    \"description\": \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!\",\n    \"imageCover\": \"tour-9-cover.jpg\",\n    \"images\": [\"tour-9-1.jpg\", \"tour-9-2.jpg\", \"tour-9-3.jpg\"],\n    \"startDates\": [\"2021-12-16,10:00\", \"2022-01-16,10:00\", \"2022-12-12,10:00\"]\n  }",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 936 out of 936 bytes\n",
+		"timestamp": 1618146048669
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1618146048806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 201 Created\r\n",
+		"timestamp": 1618146048806
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1618146048807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1618146048807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 933\r\n",
+		"timestamp": 1618146048807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"3a5-gxUXCEWET7Loapk2abjgLntXApQ\"\r\n",
+		"timestamp": 1618146048807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 11 Apr 2021 13:00:48 GMT\r\n",
+		"timestamp": 1618146048807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1618146048807
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1618146048808
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1618146048808
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 933 B chunk",
+		"timestamp": 1618146048808
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #7 to host localhost left intact\n",
+		"timestamp": 1618146048809
+	}
+]

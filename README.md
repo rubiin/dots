@@ -6,19 +6,26 @@ Arch users can directly run the install-packages.sh . For other distros, you can
 
 Includes two subtly different themes. The wallpapers are photos Vitoria took in Tokyo. Feel free to use them only on your own desktops, if you wish. :)
 
-You can check out instructions on the set up [here](https://github.com/rubiin/dotfiles/blob/master/instructions.md).
+
 
 ***
 
+## If you like i3, there are two themes available
+
+You can check out instructions on the set up [here](https://github.com/rubiin/dotfiles/blob/master/instructions.md).
 ## Asakusa Theme
-![Asakusa Theme](/i3-asakusa-theme/screenshot-asakusa.png)
-![Asakusa Theme](/i3-asakusa-theme/screenshot-asakusa-stats.png)
+![Asakusa Theme](/i3wm/i3-asakusa-theme/screenshot-asakusa.png)
+![Asakusa Theme](/i3wm/i3-asakusa-theme/screenshot-asakusa-stats.png)
 
 ## Tokyo Skyline Theme
-![Tokyo Skyline Theme](/i3-tokyo-skyline-theme/screenshot-tokyo-skyline.png)
-![Tokyo Skyline Theme](/i3-tokyo-skyline-theme/screenshot-tokyo-skyline-stats.png)
+![Tokyo Skyline Theme](/i3wm/i3-tokyo-skyline-theme/screenshot-tokyo-skyline.png)
+![Tokyo Skyline Theme](/i3wm/i3-tokyo-skyline-theme/screenshot-tokyo-skyline-stats.png)
 
 ***
+
+# Installation
+
+Install chezmoi and install the dotfiles via it
 
 ## Specifications  
 * __Debian__

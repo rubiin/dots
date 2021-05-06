@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+db71151970515026b6b10de871a21bb4678e0ed8 refs/remotes/origin/grep-preview
+75c7e87de1ed7ff41183d479b1a23023070bfe54 refs/remotes/origin/master
+529894d76906b2b62098122e5f06c85749740586 refs/remotes/origin/revert-500-gitfiles-quoting

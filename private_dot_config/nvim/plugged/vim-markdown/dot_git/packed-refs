@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+c1fca6e057ed9c49a0448f203d6e01ccbe23a36a refs/remotes/origin/fenced_highlighting
+9d87cc19179496db50fb6d902987737c4b522e38 refs/remotes/origin/master
+a1269743664a9dfc395047ba0ac9d285d860e38e refs/tags/v1.0
+a1269743664a9dfc395047ba0ac9d285d860e38e refs/tags/vim7.4
+66924d80bece83026faf90793087180c0bcadbff refs/tags/vim8.2
+^a273e6d1f366ed55b9e3effc6eb065a1e7decb68

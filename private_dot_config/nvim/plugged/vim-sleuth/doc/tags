@@ -1,0 +1,5 @@
+:Sleuth	sleuth.txt	/*:Sleuth*
+SleuthIndicator()	sleuth.txt	/*SleuthIndicator()*
+sleuth	sleuth.txt	/*sleuth*
+sleuth-settings	sleuth.txt	/*sleuth-settings*
+sleuth.txt	sleuth.txt	/*sleuth.txt*

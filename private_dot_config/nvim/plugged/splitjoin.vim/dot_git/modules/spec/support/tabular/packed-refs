@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+d3acca35fdb3e4fc70c1ffa18a76c2784ee7ef57 refs/remotes/origin/gtabularize
+339091ac4dd1f17e225fe7d57b48aff55f99b23a refs/remotes/origin/master
+b7b4d8791a50013b56c2d68b6c5708c808203b54 refs/remotes/origin/pattern_reuse
+9921b311cd60be82e4acbdd4637d159f148bed91 refs/remotes/origin/trim_1st_field
+7bd1d0de5d390834220b7d0a791bb9734fafa0cc refs/tags/1.0.0

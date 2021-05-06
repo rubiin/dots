@@ -1,0 +1,26 @@
+# pack-refs with: peeled fully-peeled sorted 
+cd4d46a6ace5292a834751d5255487582905f8ca refs/remotes/origin/java-support
+f4773c0d2f7453fea23f5f69f433547f3d62ea0a refs/remotes/origin/main
+f4773c0d2f7453fea23f5f69f433547f3d62ea0a refs/remotes/origin/master
+f579381c3a17afc9f047886264ad62d9821441d2 refs/remotes/origin/ruby-blocks-in-method-chains
+3ba8e07188071352abe321c51b918e570607648b refs/remotes/origin/split-js-at-dot
+f3ec6e341b543dd43f8223a90944e6eb8f18cd27 refs/remotes/origin/visual-mode
+e378ed37b766e7f61ea0c4519b6bc3a23a3466b0 refs/tags/v0.0.1
+8405b45cb5c8b77bc251006a3030d2317fdbd3c0 refs/tags/v0.1.0
+a9369ed7105bc06d5a1c0ce5886d6819e9666000 refs/tags/v0.1.1
+500ae2dabf46b8eabb64f72b182f218639138e01 refs/tags/v0.1.2
+29c43ea0d4230c79f50690286419d78afc92cc2d refs/tags/v0.1.3
+71c659f7da2bd34565e7f375aaf5bbb8fbb547e1 refs/tags/v0.2.0
+3b50f7f313b06ca866bc0a626acea529e8ef6bec refs/tags/v0.2.1
+a8ab34ad00077104fd5e4bfa32a87ae73f857438 refs/tags/v0.3.0
+4afe248b8cb385722a2dc43156950fa1bbdcab06 refs/tags/v0.4.0
+05bdb32ae8bf2aeefed0598e44be43d99df23b7a refs/tags/v0.4.1
+c2914932fb78be377c6fd2ad93c9592b1bf902a5 refs/tags/v0.4.2
+bb11524b0e88fb2ed204c714d442d00741eb2c90 refs/tags/v0.5.0
+e0d1dcb11969970fe3663548c1735e2e6a305061 refs/tags/v0.5.1
+e23e41fc7566f74155c8e678ffe70dc0deecaee9 refs/tags/v0.5.2
+6048c76905fb3f8f4590c9e645fb08522910a6fb refs/tags/v0.6.0
+dfc048107335a30442325284f00f73dbbdf52a7e refs/tags/v0.7.0
+70baaf0fe1fcf35b2c0da783cbcf247256b20a41 refs/tags/v0.8.0
+^9e0a747cf591b6994950b80265647a457effcbf4
+238a4c95e8888ac8918e00002cf9596068aeef1a refs/tags/v1.0.0

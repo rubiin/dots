@@ -1,0 +1,10 @@
+g:marked_app	marked.txt	/*g:marked_app*
+g:marked_filetypes	marked.txt	/*g:marked_filetypes*
+marked	marked.txt	/*marked*
+marked-:MarkedOpen	marked.txt	/*marked-:MarkedOpen*
+marked-:MarkedQuit	marked.txt	/*marked-:MarkedQuit*
+marked-:MarkedToggle	marked.txt	/*marked-:MarkedToggle*
+marked-about	marked.txt	/*marked-about*
+marked-commands	marked.txt	/*marked-commands*
+marked-configuration	marked.txt	/*marked-configuration*
+marked.vim	marked.txt	/*marked.vim*

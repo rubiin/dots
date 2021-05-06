@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+70840cfaf6a06766ab61e975b8a1fe3b891ee08e refs/remotes/origin/master
+dc06206732e253e1c815a8c2d7b514ef787edc78 refs/remotes/origin/nested-braces
+552ccb7a6128a8459f6a3aec80f51a980469c9fc refs/tags/v0.12
+a51e13791bd76c099e323b567a3278e450453a14 refs/tags/v0.13
+00f707999bc565b1e6befd526a20d6d0001f5611 refs/tags/v0.9.1

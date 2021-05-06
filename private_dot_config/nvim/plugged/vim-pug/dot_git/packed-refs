@@ -1,0 +1,3 @@
+# pack-refs with: peeled fully-peeled sorted 
+ea39cd942cf3194230cf72bfb838901a5344d3b3 refs/remotes/origin/master
+b1d3087042601b77f13e7af6b393901f0db54244 refs/remotes/origin/revert-111-js-syntax-highlight

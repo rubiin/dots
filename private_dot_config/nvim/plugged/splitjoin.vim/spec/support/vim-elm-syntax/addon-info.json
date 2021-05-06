@@ -1,9 +1,0 @@
-{
-  "name": "vim-elm-syntax",
-  "description": "Elm syntax highlighting",
-  "author": "andys8 <andys8@users.noreply.github.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/andys8/vim-elm-syntax.git"
-  }
-}

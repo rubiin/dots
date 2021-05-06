@@ -1,7 +1,0 @@
-root = true
-
-[*.c]
-key1 = value1
-
-[*.cpp]
-key2 = value2

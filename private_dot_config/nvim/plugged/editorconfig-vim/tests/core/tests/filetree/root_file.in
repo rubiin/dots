@@ -1,7 +1,0 @@
-root = true
-
-[test.a]
-key=value
-
-[root]
-name=root

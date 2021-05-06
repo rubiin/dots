@@ -1,1 +1,0 @@
-runtime! indent/handlebars.vim

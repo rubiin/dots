@@ -17,11 +17,19 @@ call plug#begin('~/.config/nvim/plugged')
 
     set autoread " detect when a file is changed
 
-    set history=1000 " change history to 1000
-    set textwidth=120
+    " WARNING: These settings disable vim's backups (swap files).
+    " If this is not desired, comment these lines out.
+    set nobackup " don't use backup files
+    set nowritebackup " don't backup the file while editing
+    set noswapfile " Don't create swapfiles for new buffers
+    set updatecount=0 " don't try to write swap files after some number of updates
 
-    set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+    set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp " change where swap files are stored"
     set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+    set history=1000 " store the last 1000 command-lines entered
+
+    set textwidth=120
 
     if (has('nvim'))
         " show results of substition as they're happening
@@ -152,13 +160,16 @@ call plug#begin('~/.config/nvim/plugged')
             \       'currentfunction': 'helpers#lightline#currentFunction',
             \       'gitblame': 'helpers#lightline#gitBlame'
             \   },
+            \   'tab_component_function': {
+            \       'filetype': 'helpers#lightline#tabFileType'
+            \   },
             \   'tabline': {
             \       'left': [ [ 'tabs' ] ],
             \       'right': [ [ 'close' ] ]
             \   },
             \   'tab': {
-            \       'active': [ 'filename', 'modified' ],
-            \       'inactive': [ 'filename', 'modified' ],
+            \       'active': [ 'filetype', 'filename', 'modified' ],
+            \       'inactive': [ 'filetype', 'filename', 'modified' ],
             \   },
             \   'separator': { 'left': '', 'right': '' },
             \   'subseparator': { 'left': '', 'right': '' }
@@ -279,6 +290,9 @@ call plug#begin('~/.config/nvim/plugged')
     nmap <leader>4 <Plug>HiInterestingWord4
     nmap <leader>5 <Plug>HiInterestingWord5
     nmap <leader>6 <Plug>HiInterestingWord6
+
+    " open current buffer in a new tab
+    nmap <silent> gTT :tab sb<cr>
 " }}}
 
 " AutoGroups {{{
@@ -318,7 +332,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tpope/vim-surround'
 
     " tmux integration for vim
-    Plug 'benmills/vimux'
+    Plug 'preservim/vimux'
 
     " enables repeating other supported plugins with the . command
     Plug 'tpope/vim-repeat'
@@ -354,6 +368,7 @@ call plug#begin('~/.config/nvim/plugged')
         let g:startify_commands = [
         \   { 'up': [ 'Update Plugins', ':PlugUpdate' ] },
         \   { 'ug': [ 'Upgrade Plugin Manager', ':PlugUpgrade' ] },
+        \   { 'uc': [ 'Update CoC Plugins', ':CocUpdate' ] },
         \ ]
 
         let g:startify_bookmarks = [
@@ -380,59 +395,11 @@ call plug#begin('~/.config/nvim/plugged')
     " context-aware pasting
     Plug 'sickill/vim-pasta'
 
-    " NERDTree {{{
-        Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-        Plug 'Xuyuanp/nerdtree-git-plugin'
-        Plug 'ryanoasis/vim-devicons'
-        Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-        let g:WebDevIconsOS = 'Darwin'
-        let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-        let g:DevIconsEnableFoldersOpenClose = 1
-        let g:DevIconsEnableFolderExtensionPatternMatching = 1
-        let NERDTreeDirArrowExpandable = "\u00a0" " make arrows invisible
-        let NERDTreeDirArrowCollapsible = "\u00a0" " make arrows invisible
-        let NERDTreeNodeDelimiter = "\u263a" " smiley face
-
-        augroup nerdtree
-            autocmd!
-            autocmd FileType nerdtree setlocal nolist " turn off whitespace characters
-            autocmd FileType nerdtree setlocal nocursorline " turn off line highlighting for performance
-        augroup END
-
-        " Toggle NERDTree
-        function! ToggleNerdTree()
-            if @% != "" && @% !~ "Startify" && (!exists("g:NERDTree") || (g:NERDTree.ExistsForTab() && !g:NERDTree.IsOpen()))
-                :NERDTreeFind
-            else
-                :NERDTreeToggle
-            endif
-        endfunction
-        " toggle nerd tree
-        nmap <silent> <leader>n :call ToggleNerdTree()<cr>
-        " find the current file in nerdtree without needing to reload the drawer
-        nmap <silent> <leader>y :NERDTreeFind<cr>
-
-        let NERDTreeShowHidden=1
-        " let NERDTreeDirArrowExpandable = '▷'
-        " let NERDTreeDirArrowCollapsible = '▼'
-        let g:NERDTreeIndicatorMapCustom = {
-        \ "Modified"  : "✹",
-        \ "Staged"    : "✚",
-        \ "Untracked" : "✭",
-        \ "Renamed"   : "➜",
-        \ "Unmerged"  : "═",
-        \ "Deleted"   : "✖",
-        \ "Dirty"     : "✗",
-        \ "Clean"     : "✔︎",
-        \ 'Ignored'   : '☒',
-        \ "Unknown"   : "?"
-        \ }
-    " }}}
+    Plug 'ryanoasis/vim-devicons'
 
     " FZF {{{
-        Plug '/usr/local/opt/fzf'
+        Plug $HOMEBREW_PREFIX . '/opt/fzf'
         Plug 'junegunn/fzf.vim'
-        let g:fzf_layout = { 'down': '~25%' }
 
         if isdirectory(".git")
             " if in a git project, use :GFiles
@@ -472,12 +439,28 @@ call plug#begin('~/.config/nvim/plugged')
         \  'down':    '40%'})
 
         command! -bang -nargs=* Find call fzf#vim#grep(
-            \ 'rg --column --line-number --no-heading --follow --color=always -- '.shellescape(<q-args>).' || true', 1,
+            \ 'rg --column --line-number --no-heading --follow --color=always '.<q-args>.' || true', 1,
             \ <bang>0 ? fzf#vim#with_preview('up:60%') : fzf#vim#with_preview('right:50%:hidden', '?'), <bang>0)
         command! -bang -nargs=? -complete=dir Files
-            \ call fzf#vim#files(<q-args>, fzf#vim#with_preview('right:50%', '?'), <bang>0)
+            \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
         command! -bang -nargs=? -complete=dir GitFiles
-            \ call fzf#vim#gitfiles(<q-args>, fzf#vim#with_preview('right:50%', '?'), <bang>0)
+            \ call fzf#vim#gitfiles(<q-args>, fzf#vim#with_preview(), <bang>0)
+        function! RipgrepFzf(query, fullscreen)
+            let command_fmt = 'rg --column --line-number --no-heading --color=always --smart-case -- %s || true'
+            let initial_command = printf(command_fmt, shellescape(a:query))
+            let reload_command = printf(command_fmt, '{q}')
+            let spec = {'options': ['--phony', '--query', a:query, '--bind', 'change:reload:'.reload_command]}
+            call fzf#vim#grep(initial_command, 1, fzf#vim#with_preview(spec), a:fullscreen)
+        endfunction
+
+        let $FZF_DEFAULT_OPTS= $FZF_DEFAULT_OPTS
+            \ . " --layout reverse"
+            \ . " --pointer ' '"
+            \ . " --info hidden"
+            \ . " --color 'bg+:0'"
+
+        let g:fzf_preview_window = ['right:50%:hidden', '?']
+        let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.5, 'highlight': 'Comment' } }
     " }}}
 
     " vim-fugitive {{{
@@ -485,7 +468,7 @@ call plug#begin('~/.config/nvim/plugged')
         nmap <silent> <leader>gs :Gstatus<cr>
         nmap <leader>ge :Gedit<cr>
         nmap <silent><leader>gr :Gread<cr>
-        nmap <silent><leader>gb :Gblame<cr>
+        nmap <silent><leader>gb :G blame<cr>
 
         Plug 'tpope/vim-rhubarb' " hub extension for fugitive
         Plug 'sodapopcan/vim-twiggy'
@@ -545,7 +528,7 @@ call plug#begin('~/.config/nvim/plugged')
         nmap <silent> ]c <Plug>(coc-diagnostic-next)
 
         " rename
-        nmap <silent> <leader>rn <Plug>(coc-rename)
+        nmap <silent> <leader>c <Plug>(coc-rename)
 
         " Remap for format selected region
         xmap <leader>f  <Plug>(coc-format-selected)
@@ -571,6 +554,12 @@ call plug#begin('~/.config/nvim/plugged')
             \ <SID>check_back_space() ? "\<TAB>" :
             \ coc#refresh()
         inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+        if has('nvim')
+            inoremap <silent><expr> <c-space> coc#refresh()
+        else
+            inoremap <silent><expr> <c-@> coc#refresh();
+        endif
 
         function! s:check_back_space() abort
         let col = col('.') - 1
@@ -608,8 +597,8 @@ call plug#begin('~/.config/nvim/plugged')
         " pug / jade support
         Plug 'digitaltoad/vim-pug', { 'for': ['jade', 'pug'] }
 
-		" nunjucks support
-        Plug 'Glench/Vim-Jinja2-Syntax', { 'for': 'njk' }
+        " nunjucks support
+        Plug 'niftylettuce/vim-jinja'
 
         " liquid support
         Plug 'tpope/vim-liquid'
@@ -619,9 +608,9 @@ call plug#begin('~/.config/nvim/plugged')
         Plug 'othree/yajs.vim', { 'for': [ 'javascript', 'javascript.jsx', 'html' ] }
         " Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html'] }
         Plug 'moll/vim-node', { 'for': 'javascript' }
-		Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'], 'do': 'npm install' }
-		Plug 'MaxMEllon/vim-jsx-pretty'
-		let g:vim_jsx_pretty_highlight_close_tag = 1
+        Plug 'ternjs/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'], 'do': 'npm install' }
+        Plug 'MaxMEllon/vim-jsx-pretty'
+        let g:vim_jsx_pretty_highlight_close_tag = 1
     " }}}
 
     " TypeScript {{{
@@ -655,6 +644,7 @@ call plug#begin('~/.config/nvim/plugged')
     " }}}
 
     Plug 'ekalinin/Dockerfile.vim'
+    Plug 'jparise/vim-graphql'
 " }}}
 
 call plug#end()
@@ -673,9 +663,9 @@ call plug#end()
     syntax on
     filetype plugin indent on
     " make the highlighting of tabs and other non-text less annoying
-    "
     highlight SpecialKey ctermfg=19 guifg=#333333
     highlight NonText ctermfg=19 guifg=#333333
+
     " make comments and HTML attributes italic
     highlight Comment cterm=italic term=italic gui=italic
     highlight htmlArg cterm=italic term=italic gui=italic

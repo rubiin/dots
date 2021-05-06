@@ -1,6 +1,0 @@
-﻿; test EditorConfig files with BOM
-
-root = true
-
-[*]
-key = value

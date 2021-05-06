@@ -1,9 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-119f42cd5f1b63f0e07cb6dc98d93374c67d5822 refs/remotes/origin/jmb/comma-config-indent
-36cafdd0e1a175a646b23eebcd40ca50393cd89c refs/remotes/origin/jmb/implicit-rescue-indent
-af8657ae2c6f8130f54fbd955cba9e1070a59949 refs/remotes/origin/jmb/nested-module
-86471363dd8d116474a9ae22eeb4a58e9354d512 refs/remotes/origin/jmb/setup-ci
-a61919e74125ce5703c9e33ee3c23f2cab930d76 refs/remotes/origin/jmb/sigil-indent
-c3cb96e153728fbfd050173b4af19118b131f278 refs/remotes/origin/master
-ff4169f799a7b0db52f7807f9f11daa0795d8693 refs/remotes/origin/perf-opt
-83ebffd18e5e0fb558b774c1dc8bb5015694898c refs/remotes/origin/refactor

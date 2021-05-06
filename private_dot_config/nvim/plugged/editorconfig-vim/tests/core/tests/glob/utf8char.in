@@ -1,6 +1,0 @@
-; test EditorConfig files with UTF-8 characters larger than 127
-
-root = true
-
-[中文.txt]
-key = value

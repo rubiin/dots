@@ -27,6 +27,8 @@ You can check out instructions on the set up [here](https://github.com/rubiin/do
 
 Install chezmoi and install the dotfiles via it
 
+Note: run `npm i -g neovim` follwed by `nvim +PlugInstall` for neovim install
+
 ## Specifications  
 * __Debian__
   * Arch Linux - https://www.archlinux.org/

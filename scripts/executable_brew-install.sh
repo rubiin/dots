@@ -1,6 +1,5 @@
 #! /bin/sh
 
-
 # Installs brew necessary packages
 
 brew update && brew upgrade

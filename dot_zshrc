@@ -81,6 +81,7 @@ done
 compinit -C
 source $HOME/.bash_aliases
 source $ZSH/oh-my-zsh.sh
+export LC_CTYPE=en_US.UTF-8
 
 # User configuration
 

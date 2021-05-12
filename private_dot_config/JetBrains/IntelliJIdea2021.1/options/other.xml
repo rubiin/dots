@@ -1,52 +1,50 @@
 <application>
   <component name="ProjectPluginTrackerManager">
-    <option name="trackers">
+    <trackers>
       <map>
-        <entry key="1q98zhVKOSDJLPyCK955qsiXh5x">
+        <entry key="1rvW2Fogar9gXdDbCQV9a8mgn4M">
           <value>
-            <ProjectPluginTrackerState />
-          </value>
-        </entry>
-        <entry key="1qWggIJNZLjJQj4CLbfGJa5tCRK">
-          <value>
-            <ProjectPluginTrackerState />
-          </value>
-        </entry>
-        <entry key="Default (Template) Project">
-          <value>
-            <ProjectPluginTrackerState />
+            <ProjectPluginTracker />
           </value>
         </entry>
       </map>
-    </option>
+    </trackers>
   </component>
   <component name="PropertiesComponent">
     <property name="DbRenameDialog.previewExpanded" value="true" />
+    <property name="IdeaUltimate.EnableRunTargetsOnce" value="true" />
     <property name="InstalledPluginsSearchHistory" value="/outdated" />
     <property name="MarketplacePluginsSearchHistory" value="settings&#10;setting&#10;one dark&#10;one dar&#10;one" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-203.7717.56-a57b78b56dd16e3f9809873a0c72f4f116dbf4b37f5f25d459979f15a5c48577" />
+    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-b3c35fbf2c4f616f4dbd368794ad70fb327bf8560848b07782709e17b1d125e0" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.previewExpanded" value="true" />
     <property name="evlsprt3.203" value="16" />
+    <property name="experimentalFeature.run.targets" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/Projects/Nodejs/orbis-employee&#10;/home/rubin/settings.zip&#10;/home/rubin/orbis-employee" />
-    <property name="file.gist.reindex.count" value="35" />
-    <property name="fileTypeChangedCounter" value="2" />
+    <property name="file.gist.reindex.count" value="39" />
+    <property name="fileTypeChangedCounter" value="4" />
+    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ide.self.update.started.for.build" value="IU-203.7717.56" />
-    <property name="ide.updates.previous.build.number" value="IU-203.7717.56" />
-    <property name="installed.kotlin.plugin.version" value="203-1.4.32-release-IJ7148.5" />
-    <property name="kotlin.plugin.releaseDate" value="203-1.4.32-release-IJ7148.5:2021-03-23" />
+    <property name="ide.updates.previous.build.number" value="IU-211.7142.45" />
+    <property name="ide.updates.whats.new.shown.for" value="211" />
+    <property name="installed.kotlin.plugin.version" value="211-1.4.32-release-IJ7142.27" />
+    <property name="kotlin.plugin.releaseDate" value="211-1.4.32-release-IJ7142.27:2021-04-27" />
     <property name="lastSeenTip" value="neue-Multiselection2.html" />
     <property name="lastTimeTipsWereShown" value="1616480719049" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Projects/Nodejs/orbis-employee" />
+    <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
     <property name="packagesearch.status.updated.ts" value="1616480710207" />
     <property name="seenTips" value="neue-Multiselection2.html" />
     <property name="shared.index.infrastructure.prop" value="4" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
-    <property name="ts.lib.d.ts.version" value="4.1.3" />
+    <property name="ts.lib.d.ts.version" value="4.2.2" />
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
   </component>
 </application>

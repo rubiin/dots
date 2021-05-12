@@ -1,12 +1,12 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1368.768" width="904" height="172" />
-    <size key="GridCell.Tab.0.center.0.0.1368.768" width="904" height="172" />
-    <size key="GridCell.Tab.0.right.0.0.1368.768" width="904" height="172" />
-    <size key="GridCell.Tab.0.bottom.0.0.1368.768" width="904" height="172" />
+    <size key="GridCell.Tab.0.left.0.0.1368.768" width="904" height="204" />
+    <size key="GridCell.Tab.0.center.0.0.1368.768" width="904" height="204" />
+    <size key="GridCell.Tab.0.right.0.0.1368.768" width="904" height="204" />
+    <size key="GridCell.Tab.0.bottom.0.0.1368.768" width="904" height="204" />
   </component>
   <component name="WindowManager">
-    <frame x="0" y="40" width="1368" height="728" extendedState="6" />
+    <frame x="0" y="36" width="1368" height="732" extendedState="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />

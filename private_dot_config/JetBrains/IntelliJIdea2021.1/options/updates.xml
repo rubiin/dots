@@ -1,8 +1,8 @@
 <application>
   <component name="UpdatesConfigurable">
     <option name="CHECK_NEEDED" value="false" />
-    <option name="LAST_BUILD_CHECKED" value="IU-203.7717.56" />
-    <option name="LAST_TIME_CHECKED" value="1617885304640" />
+    <option name="LAST_BUILD_CHECKED" value="IU-211.7142.45" />
+    <option name="LAST_TIME_CHECKED" value="1620796537950" />
     <pluginHosts>
       <item value="https://plugins.zhile.io" />
       <item value="https://repo.idechajian.com" />

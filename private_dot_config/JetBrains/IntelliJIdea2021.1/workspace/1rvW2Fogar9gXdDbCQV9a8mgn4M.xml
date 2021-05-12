@@ -1,0 +1,282 @@
+<project version="4">
+  <component name="DatabaseView">
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="PostgreSQL - db_customer@demo.rosebaycorporate.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_dev_test: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_dev_test: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_dev_test: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="tables" type="dcf0d525:DatabaseStructure$RegularFamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://156da36e-fdc5-4b2f-aed5-44f278a45fd8/database/db_lms/schema/public/table/StatementHistory">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state lastOpenedTimestamp="1620796545925" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+              <filtering>
+                <filter text="" />
+              </filtering>
+              <sorting>
+                <sort text="" />
+              </sorting>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock:///What's New in IntelliJ IDEA">
+          <provider selected="true" editor-type-id="html-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://fd0a4ee7-fd0d-4e87-9dde-7effaab90a65/database/orbis_dev_test/schema/dbo/table/Customer">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state lastOpenedTimestamp="1620796888856" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+              <filtering>
+                <filter text="" />
+              </filtering>
+              <sorting>
+                <sort text="" />
+              </sorting>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="orbis-employee" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orbis-employee" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="lms" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="lms" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="PostgreSQL - db_customer@demo.rosebaycorporate.com: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="lms" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="PostgreSQL - db_customer@demo.rosebaycorporate.com: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="{}" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis_dev_test@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis_dev_test@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="{}" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2503655" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Space Code Reviews" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Profiler" order="10" />
+      <window_info anchor="bottom" id="Flow" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Endpoints" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Services" order="15" weight="0.32932013" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.33004385" />
+    </layout>
+    <recentWindows>
+      <value>Database</value>
+      <value>Services</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" />
+  <component name="WindowStateProjectService">
+    <state x="359" y="139" width="650" height="528" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619869371058">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="359" y="139" width="650" height="528" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1368.732@0.36.1368.732" timestamp="1619869371058" />
+    <state x="279" y="87" width="808" height="632" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1619859271109">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="279" y="87" width="808" height="632" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.36.1368.732@0.36.1368.732" timestamp="1619859271109" />
+    <state width="904" height="204" key="GridCell.Tab.0.bottom" timestamp="1620796872440">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.bottom/0.36.1368.732@0.36.1368.732" timestamp="1620796872440" />
+    <state width="904" height="204" key="GridCell.Tab.0.center" timestamp="1620796872438">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.center/0.36.1368.732@0.36.1368.732" timestamp="1620796872438" />
+    <state width="904" height="204" key="GridCell.Tab.0.left" timestamp="1620796872430">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.left/0.36.1368.732@0.36.1368.732" timestamp="1620796872430" />
+    <state width="904" height="204" key="GridCell.Tab.0.right" timestamp="1620796872439">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.right/0.36.1368.732@0.36.1368.732" timestamp="1620796872439" />
+    <state x="332" y="36" key="SettingsEditor" timestamp="1619869568485">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="332" y="36" key="SettingsEditor/0.36.1368.732@0.36.1368.732" timestamp="1619869568485" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://156da36e-fdc5-4b2f-aed5-44f278a45fd8/database/db_lms/schema/public/table/CustomerStatement">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1619869436546" presentationMode="TABLE" projectRestartId="18a73bc8-b056-4ec7-b779-5c58a2ad1362" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://156da36e-fdc5-4b2f-aed5-44f278a45fd8/database/db_lms/schema/public/table/StatementHistory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1620796545925" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fd0a4ee7-fd0d-4e87-9dde-7effaab90a65/database/orbis_dev_test/schema/dbo/table/Customer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1620796888856" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -930,9 +930,11 @@
     </version>
   </artifact>
 
-  <artifact name="SAP Hana" version="2.7.9">
-    <item url="https://repo1.maven.org/maven2/com/sap/cloud/db/jdbc/ngdbc/2.7.9/ngdbc-2.7.9.jar"/>
-    <item type="license" url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Sybase/hana_license.txt"/>
+  <artifact name="SAP Hana">
+    <version version="2.7.9">
+      <item url="https://repo1.maven.org/maven2/com/sap/cloud/db/jdbc/ngdbc/2.7.9/ngdbc-2.7.9.jar"/>
+      <item type="license" url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Sybase/hana_license.txt"/>
+    </version>
   </artifact>
 
   <artifact name="SAP jConnect">
@@ -964,14 +966,16 @@
     </version>
   </artifact>
 
-  <artifact name="Informix" version="4.10">
-    <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxjdbc.jar"/>
-    <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxjdbcx.jar"/>
-    <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxlang.jar"/>
-    <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxlsupp.jar"/>
-    <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxsqlj.jar"/>
-    <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxtools.jar"/>
-    <item type="license" url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/license.txt"/>
+  <artifact name="Informix">
+    <version version="4.10">
+      <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxjdbc.jar"/>
+      <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxjdbcx.jar"/>
+      <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxlang.jar"/>
+      <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxlsupp.jar"/>
+      <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxsqlj.jar"/>
+      <item url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/ifxtools.jar"/>
+      <item type="license" url="https://cache-redirector.jetbrains.com/download.jetbrains.com/idea/jdbc-drivers/Informix/license.txt"/>
+    </version>
   </artifact>
 
   <artifact name="Athena">

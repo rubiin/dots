@@ -1,7 +1,7 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$SelectAll">
-      <i c="52" l="1617881003936" />
+      <i c="53" l="1620797036690" />
     </e>
     <e n="$Undo">
       <i c="5" l="1617684916733" />
@@ -31,7 +31,7 @@
       <i c="21" l="1617882622420" />
     </e>
     <e n="Console.TableResult.Submit">
-      <i c="14" l="1617882516226" />
+      <i c="15" l="1620797056663" />
     </e>
     <e n="CreateDesktopEntry">
       <i c="1" l="1616481103401" />
@@ -64,7 +64,7 @@
       <i c="2" l="1616481447838" />
     </e>
     <e n="EditorBackSpace">
-      <i c="89" l="1617684920081" />
+      <i c="112" l="1620797048828" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="13" l="1617684843676" />
@@ -79,13 +79,13 @@
       <i c="3" l="1617684068316" />
     </e>
     <e n="EditorLeft">
-      <i c="15" l="1617612949101" />
+      <i c="55" l="1620797045571" />
     </e>
     <e n="EditorPaste">
-      <i c="26" l="1617684884372" />
+      <i c="28" l="1620797042284" />
     </e>
     <e n="EditorRight">
-      <i c="20" l="1617684838419" />
+      <i c="42" l="1620797053869" />
     </e>
     <e n="EditorStartNewLine">
       <i c="1" l="1616586198824" />
@@ -150,6 +150,12 @@
     <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$2">
       <i c="21" l="1616750652797" />
     </e>
+    <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$4">
+      <i c="1" l="1620797049701" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1620796539959" />
+    </e>
     <e n="com.intellij.ide.plugins.PluginManagerConfigurable$InstalledSearchOptionAction">
       <i c="1" l="1616592936649" />
     </e>
@@ -169,7 +175,7 @@
       <i c="2" l="1617192059965" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-      <i c="63" l="1617882510003" />
+      <i c="65" l="1620797029793" />
     </e>
   </component>
 </application>

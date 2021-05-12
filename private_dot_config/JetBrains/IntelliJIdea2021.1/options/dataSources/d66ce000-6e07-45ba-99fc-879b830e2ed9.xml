@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="orbis_dev@sa-devdb.database.windows.net">
-  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.20">
+  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.21">
     <root id="1">
       <ServerVersion>12.0.2000</ServerVersion>
       <Dbms>AZURE</Dbms>
@@ -11,8 +11,8 @@
     <database id="3" parent="1" name="orbis_dev">
       <ObjectId>10</ObjectId>
       <PermissionsCheckSum>1059020366</PermissionsCheckSum>
-      <Grants>10|database||1|connect|G
-</Grants>
+      <Grants>-9223372036854775808|||-9223372036854775808||G
+10|database||1|connect|G</Grants>
       <Current>1</Current>
       <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
       <Fingerprint>10.44146/F3C234FA-D606-4649-9A30-55BB5996B774@sa-devdb</Fingerprint>

@@ -22,7 +22,7 @@
       <schema-mapping />
     </data-source>
     <data-source name="orbis_uat@sa-devdb.database.windows.net" uuid="85449529-bc1d-4294-8356-e6ef7b0a1f18">
-      <database-info product="Microsoft SQL Server" version="12.00.2000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2000" exact-driver-version="9.2">
+      <database-info product="Microsoft SQL Server" version="12.00.2148" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2148" exact-driver-version="9.2">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -54,7 +54,7 @@
       </schema-mapping>
     </data-source>
     <data-source name="orbis_dev_test@sa-devdb.database.windows.net" uuid="fd0a4ee7-fd0d-4e87-9dde-7effaab90a65">
-      <database-info product="Microsoft SQL Server" version="12.00.2000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2000" exact-driver-version="9.2">
+      <database-info product="Microsoft SQL Server" version="12.00.2148" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2148" exact-driver-version="9.2">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

@@ -17,26 +17,26 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
-        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_uat@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
-        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
-        <item name="orbis_dev_test: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="orbis_uat@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_uat: database" type="ccb7ac2a:MsImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
-        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
-        <item name="orbis_dev_test: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="orbis_uat@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_uat: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="orbis" type="cc8827a6:DatabaseStructure$DbGroup" />
-        <item name="orbis_dev_test@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
-        <item name="orbis_dev_test: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="orbis_uat@sa-devdb.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="orbis_uat: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
         <item name="tables" type="dcf0d525:DatabaseStructure$RegularFamilyGroup" />
       </path>
@@ -45,38 +45,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://156da36e-fdc5-4b2f-aed5-44f278a45fd8/database/db_lms/schema/public/table/StatementHistory">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state lastOpenedTimestamp="1620796545925" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
-              <filtering>
-                <filter text="" />
-              </filtering>
-              <sorting>
-                <sort text="" />
-              </sorting>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mock:///What's New in IntelliJ IDEA">
-          <provider selected="true" editor-type-id="html-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://fd0a4ee7-fd0d-4e87-9dde-7effaab90a65/database/orbis_dev_test/schema/dbo/table/Customer">
+        <entry file="das://85449529-bc1d-4294-8356-e6ef7b0a1f18/database/orbis_uat/schema/dbo/table/Criterias">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state lastOpenedTimestamp="1620796888856" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+            <state lastOpenedTimestamp="1620828567508" presentationMode="TABLE" projectRestartId="a31815d0-ba4a-47bc-899a-94b866cfdafd" pageSize="500">
               <filtering>
                 <filter text="" />
               </filtering>
@@ -92,6 +64,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql" />
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/85449529-bc1d-4294-8356-e6ef7b0a1f18/console_1.sql" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -104,7 +77,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +88,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -136,23 +109,28 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="lms" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="PostgreSQL - db_customer@demo.rosebaycorporate.com: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis_dev_test@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis_uat@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis_uat@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="{}" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="orbis_dev_test@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="orbis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="orbis_dev_test@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="orbis_uat@sa-devdb.database.windows.net: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="{}" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
@@ -163,6 +141,7 @@
     </option>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2503655" />
       <window_info id="Structure" order="1" side_tool="true" />
@@ -191,8 +170,8 @@
     </layout>
     <recentWindows>
       <value>Database</value>
-      <value>Services</value>
       <value>Project</value>
+      <value>Services</value>
     </recentWindows>
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" />
@@ -205,26 +184,30 @@
       <screen x="0" y="36" width="1368" height="732" />
     </state>
     <state x="279" y="87" width="808" height="632" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.36.1368.732@0.36.1368.732" timestamp="1619859271109" />
-    <state width="904" height="204" key="GridCell.Tab.0.bottom" timestamp="1620796872440">
+    <state width="904" height="204" key="GridCell.Tab.0.bottom" timestamp="1620828413780">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
-    <state width="904" height="204" key="GridCell.Tab.0.bottom/0.36.1368.732@0.36.1368.732" timestamp="1620796872440" />
-    <state width="904" height="204" key="GridCell.Tab.0.center" timestamp="1620796872438">
+    <state width="904" height="204" key="GridCell.Tab.0.bottom/0.36.1368.732@0.36.1368.732" timestamp="1620828413780" />
+    <state width="904" height="204" key="GridCell.Tab.0.center" timestamp="1620828413779">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
-    <state width="904" height="204" key="GridCell.Tab.0.center/0.36.1368.732@0.36.1368.732" timestamp="1620796872438" />
-    <state width="904" height="204" key="GridCell.Tab.0.left" timestamp="1620796872430">
+    <state width="904" height="204" key="GridCell.Tab.0.center/0.36.1368.732@0.36.1368.732" timestamp="1620828413779" />
+    <state width="904" height="204" key="GridCell.Tab.0.left" timestamp="1620828413778">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
-    <state width="904" height="204" key="GridCell.Tab.0.left/0.36.1368.732@0.36.1368.732" timestamp="1620796872430" />
-    <state width="904" height="204" key="GridCell.Tab.0.right" timestamp="1620796872439">
+    <state width="904" height="204" key="GridCell.Tab.0.left/0.36.1368.732@0.36.1368.732" timestamp="1620828413778" />
+    <state width="904" height="204" key="GridCell.Tab.0.right" timestamp="1620828413780">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
-    <state width="904" height="204" key="GridCell.Tab.0.right/0.36.1368.732@0.36.1368.732" timestamp="1620796872439" />
+    <state width="904" height="204" key="GridCell.Tab.0.right/0.36.1368.732@0.36.1368.732" timestamp="1620828413780" />
     <state x="332" y="36" key="SettingsEditor" timestamp="1619869568485">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
     <state x="332" y="36" key="SettingsEditor/0.36.1368.732@0.36.1368.732" timestamp="1619869568485" />
+    <state x="528" y="167" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1620828262520">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="528" y="167" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.36.1368.732@0.36.1368.732" timestamp="1620828262520" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -247,16 +230,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://156da36e-fdc5-4b2f-aed5-44f278a45fd8/database/db_lms/schema/public/table/StatementHistory">
+    <entry file="das://fd0a4ee7-fd0d-4e87-9dde-7effaab90a65/database/orbis_dev_test/schema/dbo/table/Customer">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state lastOpenedTimestamp="1620796545925" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+        <state lastOpenedTimestamp="1620827877666" presentationMode="TABLE" projectRestartId="a31815d0-ba4a-47bc-899a-94b866cfdafd" pageSize="500">
           <filtering>
             <filter text="" />
           </filtering>
@@ -266,9 +242,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://fd0a4ee7-fd0d-4e87-9dde-7effaab90a65/database/orbis_dev_test/schema/dbo/table/Customer">
+    <entry file="das://156da36e-fdc5-4b2f-aed5-44f278a45fd8/database/db_lms/schema/public/table/StatementHistory">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state lastOpenedTimestamp="1620796888856" presentationMode="TABLE" projectRestartId="6a55e123-1117-4bc0-8d09-f7697c66362a" pageSize="500">
+        <state lastOpenedTimestamp="1620827876827" presentationMode="TABLE" projectRestartId="a31815d0-ba4a-47bc-899a-94b866cfdafd" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/156da36e-fdc5-4b2f-aed5-44f278a45fd8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fd0a4ee7-fd0d-4e87-9dde-7effaab90a65/database/orbis_dev_test/schema/dbo/table/SearchFilters">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1620828156859" presentationMode="TABLE" projectRestartId="a31815d0-ba4a-47bc-899a-94b866cfdafd" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85449529-bc1d-4294-8356-e6ef7b0a1f18/database/orbis_uat/schema/dbo/table/SearchFilters">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1620828281233" presentationMode="TABLE" projectRestartId="a31815d0-ba4a-47bc-899a-94b866cfdafd" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/85449529-bc1d-4294-8356-e6ef7b0a1f18/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://85449529-bc1d-4294-8356-e6ef7b0a1f18/database/orbis_uat/schema/dbo/table/Criterias">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1620828567508" presentationMode="TABLE" projectRestartId="a31815d0-ba4a-47bc-899a-94b866cfdafd" pageSize="500">
           <filtering>
             <filter text="" />
           </filtering>

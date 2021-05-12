@@ -5,6 +5,7 @@ alias mk="minikube"
 alias projects="cd Desktop/Projects/Nodejs"
 alias cz="chezmoi"
 alias cza="cz add"
+alias czo="code ~/.local/share/chezmoi/"
 alias husky_init="npx husky install && npx husky add .husky/pre-commit "npx lint-staged""
 alias yt="youtube-dl"
 alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'

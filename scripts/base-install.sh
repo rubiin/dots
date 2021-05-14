@@ -20,9 +20,12 @@ source ~/.zshrc
 asdf update
 asdf plugin add nodejs
 asdf plugin add golang
+asdf plugin add rust
 asdf install nodejs 14.16.1
+asdf install rust 1.52.1
 asdf install golang 1.16.4
 asdf global golang 1.16.4
+asdf global rust 1.52.1
 asdf global nodejs 14.16.1
 
 tar -xzvf ~/.fonts/dot_fonts.tar.gz

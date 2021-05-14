@@ -1,19 +1,19 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$SelectAll">
-      <i c="58" l="1620828368674" />
+      <i c="65" l="1620901818770" />
     </e>
     <e n="$Undo">
-      <i c="5" l="1617684916733" />
+      <i c="7" l="1620901793144" />
     </e>
     <e n="About">
       <i c="1" l="1616736576255" />
     </e>
     <e n="CheckForUpdate">
-      <i c="16" l="1620828572148" />
+      <i c="19" l="1620974295451" />
     </e>
     <e n="Console.Jdbc.Execute">
-      <i c="20" l="1620828369890" />
+      <i c="27" l="1620971679991" />
     </e>
     <e n="Console.Jdbc.Terminate">
       <i c="2" l="1616586048120" />
@@ -22,16 +22,19 @@
       <i c="2" l="1620828029827" />
     </e>
     <e n="Console.TableResult.Cancel">
-      <i c="2" l="1617697400698" />
+      <i c="3" l="1620900793393" />
+    </e>
+    <e n="Console.TableResult.CloneRow">
+      <i c="1" l="1620900808648" />
     </e>
     <e n="Console.TableResult.DeleteRows">
-      <i c="8" l="1617882515059" />
+      <i c="10" l="1620971777402" />
     </e>
     <e n="Console.TableResult.Reload">
-      <i c="24" l="1620828375526" />
+      <i c="26" l="1620900798148" />
     </e>
     <e n="Console.TableResult.Submit">
-      <i c="17" l="1620828504990" />
+      <i c="22" l="1620971778752" />
     </e>
     <e n="CreateDesktopEntry">
       <i c="1" l="1616481103401" />
@@ -64,28 +67,28 @@
       <i c="2" l="1616481447838" />
     </e>
     <e n="EditorBackSpace">
-      <i c="114" l="1620828306726" />
+      <i c="156" l="1620971672185" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="13" l="1617684843676" />
+      <i c="17" l="1620971845990" />
     </e>
     <e n="EditorCopy">
-      <i c="23" l="1620828331547" />
+      <i c="26" l="1620901790019" />
     </e>
     <e n="EditorDelete">
       <i c="3" l="1617612496679" />
     </e>
     <e n="EditorEnter">
-      <i c="3" l="1617684068316" />
+      <i c="7" l="1620971838372" />
     </e>
     <e n="EditorLeft">
-      <i c="55" l="1620797045571" />
+      <i c="91" l="1620900885578" />
     </e>
     <e n="EditorPaste">
-      <i c="32" l="1620828301198" />
+      <i c="39" l="1620901794028" />
     </e>
     <e n="EditorRight">
-      <i c="42" l="1620797053869" />
+      <i c="51" l="1620901858498" />
     </e>
     <e n="EditorStartNewLine">
       <i c="1" l="1616586198824" />
@@ -103,7 +106,7 @@
       <i c="1" l="1616480769750" />
     </e>
     <e n="Jdbc.OpenConsole.Any">
-      <i c="7" l="1620828297783" />
+      <i c="9" l="1620900777077" />
     </e>
     <e n="Jdbc.OpenEditor.Data">
       <i c="2" l="1620828096822" />
@@ -121,7 +124,7 @@
       <i c="4" l="1617626458824" />
     </e>
     <e n="SaveAll">
-      <i c="1" l="1616481455902" />
+      <i c="2" l="1620900808029" />
     </e>
     <e n="ShowLog">
       <i c="1" l="1616480883349" />
@@ -148,7 +151,7 @@
       <i c="4" l="1617187230772" />
     </e>
     <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$2">
-      <i c="23" l="1620828503249" />
+      <i c="31" l="1620901872327" />
     </e>
     <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$4">
       <i c="1" l="1620797049701" />
@@ -166,7 +169,7 @@
       <i c="1" l="1616592626564" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="60" l="1620828517345" />
+      <i c="62" l="1620897813136" />
     </e>
     <e n="com.intellij.openapi.updateSettings.impl.UpdateChecker$showNotification$1">
       <i c="2" l="1617885306489" />
@@ -175,7 +178,7 @@
       <i c="2" l="1617192059965" />
     </e>
     <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-      <i c="75" l="1620828568601" />
+      <i c="84" l="1620971770671" />
     </e>
     <e n="com.intellij.ui.CommonActionsPanel$AddButton">
       <i c="2" l="1620828220587" />

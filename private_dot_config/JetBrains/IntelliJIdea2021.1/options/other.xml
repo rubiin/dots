@@ -18,13 +18,13 @@
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-b3c35fbf2c4f616f4dbd368794ad70fb327bf8560848b07782709e17b1d125e0" />
+    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-69ce7c0ff1e3abee50a0deac18dbe33f09ef6164f4736702ac0f3f843848b73f" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.previewExpanded" value="true" />
     <property name="evlsprt3.203" value="16" />
     <property name="experimentalFeature.run.targets" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/Projects/Nodejs/orbis-employee&#10;/home/rubin/settings.zip&#10;/home/rubin/orbis-employee" />
-    <property name="file.gist.reindex.count" value="49" />
+    <property name="file.gist.reindex.count" value="64" />
     <property name="fileTypeChangedCounter" value="4" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />

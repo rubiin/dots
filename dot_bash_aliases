@@ -10,7 +10,7 @@ alias czo="code ~/.local/share/chezmoi/"
 alias husky_init="npx husky install && npx husky add .husky/pre-commit "npx lint-staged""
 alias yt="youtube-dl"
 alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
-alias update-all='yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update && npm update -g'
+alias update-all='yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update'
 alias rate-and-update='export TMPFILE="$(mktemp)"; \
 	sudo true; \
 	rate-arch-mirrors --max-delay=21600 | tee -a $TMPFILE \
@@ -28,6 +28,7 @@ alias flush-redis="redis-cli FLUSHALL"
 
 # List all files colorized in long format
 alias ls="exa"
+alias ll="exa --long"
 
 alias cat="bat"
 
@@ -87,6 +88,8 @@ alias yup="yarn upgrade";
 function gi() { curl -sLw n https://www.toptal.com/developers/gitignore/api/$@ > .gitignore;}
 
 ## docker
+
+alias pg-docker-start="docker run --name some-postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres:alpine"
 
 # Get latest container ID
 alias dl="docker ps -l -q"

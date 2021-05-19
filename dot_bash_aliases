@@ -10,13 +10,13 @@ alias czo="code ~/.local/share/chezmoi/"
 alias husky_init="npx husky install && npx husky add .husky/pre-commit "npx lint-staged""
 alias yt="youtube-dl"
 alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
-alias update-all='export TMPFILE="$(mktemp)"; \
+alias update-all='yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update && npm update -g'
+alias rate-and-update='export TMPFILE="$(mktemp)"; \
 	sudo true; \
 	rate-arch-mirrors --max-delay=21600 | tee -a $TMPFILE \
 	  && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
 	  && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
-	  && ua-drop-caches \
-	  && yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update'
+	  && ua-drop-caches \ && update-all'
 
 alias uuid="uuidgen -r | xclip -selection clipboard"
 
@@ -27,8 +27,7 @@ alias flush-redis="redis-cli FLUSHALL"
 
 
 # List all files colorized in long format
-alias ls="lsd"
-alias l="ls -laF"
+alias ls="exa"
 
 alias cat="bat"
 

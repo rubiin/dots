@@ -6,6 +6,7 @@ function escape(str) {
   str = str.replaceAll("\\r|\\n|\\r\\n", "<br/>");
   return str;
 }
+var isHTML = RegExp.prototype.test.bind(/^<.+>$/);
 
 var NEWLINE = "\n";
 
@@ -13,7 +14,7 @@ function output() { for (var i = 0; i < arguments.length; i++) { OUT.append(argu
 function outputRow(items, tag) {
   output("<tr>");
   for (var i = 0; i < items.length; i++)
-    output("<", tag, ">", escape(items[i]), "</", tag, ">");
+    output("<", tag, ">", isHTML(items[i]) ? items[i] : escape(items[i]), "</", tag, ">");
   output("</tr>", NEWLINE);
 }
 

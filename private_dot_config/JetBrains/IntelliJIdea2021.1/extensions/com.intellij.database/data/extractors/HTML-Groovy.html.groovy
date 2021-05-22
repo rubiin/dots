@@ -16,11 +16,15 @@ import static com.intellij.openapi.util.text.StringUtil.escapeXmlEntities
 
 NEWLINE = System.getProperty("line.separator")
 
+def HTML_PATTERN = ~"<.+>"
+
 def printRow = { values, tag, valueToString ->
   OUT.append("$NEWLINE<tr>$NEWLINE")
   values.each {
     def str = valueToString(it)
-    def escaped = escapeXmlEntities((str as String).replaceAll("\\t|\\b|\\f", "")).replaceAll("\\r|\\n|\\r\\n", "<br/>")
+    def escaped = str ==~ HTML_PATTERN
+      ? str
+      : escapeXmlEntities((str as String).replaceAll("\\t|\\b|\\f", "")).replaceAll("\\r|\\n|\\r\\n", "<br/>")
     OUT.append("  <$tag>$escaped</$tag>$NEWLINE")
   }
   OUT.append("</tr>")

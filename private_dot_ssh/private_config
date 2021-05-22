@@ -1,0 +1,9 @@
+# Github.com
+Host github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/github
+
+# Private GitLab instance
+Host gitlab.ebpearls.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/ebgitlab

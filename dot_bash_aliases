@@ -1,6 +1,7 @@
 alias myzsh='source ~/.zshrc'
 alias fixvlc='mkdir ~/.cache/vlc'
 alias vmc='git diff --name-only --diff-filter=U'
+alias nord="nordvpn"
 alias mk="minikube"
 alias lzd="lazydocker"
 alias projects="cd Desktop/Projects/Nodejs"

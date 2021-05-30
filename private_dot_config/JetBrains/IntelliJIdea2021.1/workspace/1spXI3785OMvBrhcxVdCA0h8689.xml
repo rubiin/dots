@@ -35,8 +35,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="132">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+              <folding>
+                <element signature="e#232#254#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +62,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,6 +73,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -114,10 +117,10 @@
   </component>
   <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
   <component name="WindowStateProjectService">
-    <state x="480" y="62" key="#GOPATH" timestamp="1621570466202">
+    <state x="480" y="62" key="#GOPATH" timestamp="1622132268283">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
-    <state x="480" y="62" key="#GOPATH/0.36.1368.732@0.36.1368.732" timestamp="1621570466202" />
+    <state x="480" y="62" key="#GOPATH/0.36.1368.732@0.36.1368.732" timestamp="1622132268283" />
     <state x="262" y="96" width="844" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621577063546">
       <screen x="0" y="36" width="1368" height="732" />
     </state>
@@ -159,8 +162,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="132">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#232#254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

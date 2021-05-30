@@ -35,7 +35,7 @@
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-84ba0a7a23749e931d8758ec6bad58c81c630e994234bc42032309e1d5e93f62" />
+    <property name="appcds.runOnSecondStart" value="IU-211.7142.45-d6265a629e611770af9adce9333036ec630c63aa5f807c098ed3787bddec85c3" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.previewExpanded" value="true" />
     <property name="defaultJdkConfigured" value="true" />
@@ -44,10 +44,11 @@
     <property name="evlsprt3.203" value="16" />
     <property name="experimentalFeature.run.targets" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/.asdf/installs/golang/1.16.4/go&#10;/home/rubin/.asdf/installs/golang/1.16.2/go&#10;/home/rubin/Desktop/Projects/Nodejs/orbis-employee&#10;/home/rubin/settings.zip&#10;/home/rubin/orbis-employee" />
-    <property name="file.gist.reindex.count" value="83" />
+    <property name="file.gist.reindex.count" value="87" />
     <property name="fileTypeChangedCounter" value="10" />
     <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="go.enabled.exportability.sorter" value="true" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="got.it.tooltip.database.schema.control.got.it" value="1" />
     <property name="ide.memory.adjusted" value="true" />
@@ -60,7 +61,7 @@
     <property name="lastTimeTipsWereShown" value="1616480719049" />
     <property name="last_opened_file_path" value="$USER_HOME$/.asdf/installs/golang/1.16.4/go" />
     <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
-    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1621570442158" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1622132250924" />
     <property name="org.jetbrains.plugins.go.LAST_VERSION" value="211.7142.36" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
@@ -73,7 +74,7 @@
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="golang-refresher-history1" project-path="$USER_HOME$/IdeaProjects/untitled" last-access-time="1621589065443" />
+      <command-history-file filename="golang-refresher-history1" project-path="$USER_HOME$/IdeaProjects/untitled" last-access-time="1622132249921" />
     </command-history-files>
   </component>
   <component name="ToolbarSettingsService">

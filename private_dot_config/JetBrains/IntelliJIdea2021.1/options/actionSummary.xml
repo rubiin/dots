@@ -16,7 +16,7 @@
       <i c="1" l="1621190704387" />
     </e>
     <e n="CheckForUpdate">
-      <i c="21" l="1621572665121" />
+      <i c="25" l="1622132302283" />
     </e>
     <e n="Console.Jdbc.Execute">
       <i c="40" l="1621506217088" />
@@ -171,6 +171,9 @@
     <e n="WelcomeScreen.OpenProject">
       <i c="2" l="1616482014147" />
     </e>
+    <e n="com.goide.project.GoModuleInitializerStartupActivity$4">
+      <i c="1" l="1622132263845" />
+    </e>
     <e n="com.goide.sdk.local.GoAddLocalSdkAction">
       <i c="2" l="1621570397319" />
     </e>
@@ -224,6 +227,9 @@
     </e>
     <e n="editRunConfigurations">
       <i c="2" l="1621571445759" />
+    </e>
+    <e n="performancePlugin.ShowMemoryDialogAction">
+      <i c="1" l="1622132272362" />
     </e>
   </component>
 </application>

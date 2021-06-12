@@ -1,0 +1,15 @@
+{
+    "servers": {
+         "javascript": {
+              "command": ["javascript-typescript-stdio"],
+              "commandDebug": ["javascript-typescript-stdio", "-t"],
+              "url": "https://github.com/sourcegraph/vscode-javascript-typescript",
+              "highlightingModeRegex": "^JavaScript.*$",
+              "rootIndicationFileNames": ["package.json", "package-lock.json"]
+          },
+          "typescript": {
+              "use": "javascript",
+              "highlightingModeRegex": "^TypeScript.*$"
+          }
+    }
+}

@@ -1,0 +1,1 @@
+return { path = "/home/rubin/Desktop/Projects/Nodejs/flipmoney", documents = {["views"]={[1]={["active"]=true,["text"]=false,["scroll"]={["y"]=316,["x"]=0},["filename"]="server/models/bank.js",["type"]="doc",["selection"]={[1]=41,[2]=1,[3]=41,[4]=1}}},["type"]="leaf",["active_view"]=1}, directories = {} }

@@ -1,0 +1,36 @@
+State=AAAA/wAAAAD9AAAAAAAAAuIAAAEwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAYAGsAZwBlAHQAXwB0AG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAA=
+eDP1 XPosition 1368x768=302
+eDP1 YPosition 1368x768=178
+
+[Appearance]
+HeaderState=AAAA/wAAAAAAAAABAAAAAQAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAskAAAAGAQEAAQAAAAAAAAAAAAAAAGQAAABQAAAAhAAAAAAAAAAGAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAA1QAAAAEAAAAAAAAD6AAAAABk
+
+[Geometry]
+SizeGroupSettingsDialog=457,240
+SizeKGetLinkView=750,407
+
+[Internal]
+DropPosition=0,0
+FirstRun=false
+LastDirectory[$e]=$HOME/Downloads/
+LastGroup=My Downloads
+MainPosition=298,152
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[MainWindow]
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAAuIAAAEwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAYAGsAZwBlAHQAXwB0AG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP1 XPosition 1368x768=298
+eDP1 YPosition 1368x768=152
+
+[Plugins]
+kget_bittorrent_pluginEnabled=false
+kget_checksumsearch_pluginEnabled=true
+kget_kio_pluginEnabled=true
+kget_metalink_pluginEnabled=false
+kget_mirrorsearch_pluginEnabled=false
+kget_mms_pluginEnabled=false
+kget_multisegkio_pluginEnabled=true

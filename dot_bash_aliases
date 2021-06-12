@@ -12,7 +12,7 @@ alias czo="code ~/.local/share/chezmoi/"
 alias husky_init="npx husky install && npx husky add .husky/pre-commit "npx lint-staged""
 alias yt="youtube-dl"
 alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
-alias update-all='yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update'
+alias update-all='yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update && code_update_extensions'
 alias rate-and-update='export TMPFILE="$(mktemp)"; \
 	sudo true; \
 	rate-arch-mirrors --max-delay=21600 | tee -a $TMPFILE \
@@ -37,6 +37,13 @@ alias cat="bat"
 sssh(){
   # try to connect every 0.5 secs (modulo timeouts)
   while true; do command ssh "$@"; [ $? -ne 255 ] && break || sleep 0.5; done
+}
+
+code_update_extensions(){
+for ext in `code --list-extensions`
+  do 
+    code --install-extension "$ext" --force
+  done
 }
 
 ffmpeg_convert(){

@@ -34,15 +34,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DbRenameDialog.previewExpanded" value="true" />
+    <property name="FindSplitterProportion" value="0.3299285" />
     <property name="GeneralSettings.initiallyConfigured" value="true" />
-    <property name="InstalledPluginsSearchHistory" value="terminal&#10;term&#10;te&#10;tabnine&#10;tabni" />
+    <property name="InstalledPluginsSearchHistory" value="sync&#10;syn&#10;sy&#10;sett&#10;set" />
     <property name="LayoutCode.optimizeImports" value="true" />
     <property name="LayoutCode.processChangedText" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
     <property name="MarketplacePluginsSearchHistory" value="tabnine&#10;http&#10;vuter&#10;vu&#10;v" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="PluginConfigurable.selectionTab" value="1" />
-    <property name="SettingsSearchHistory" value="terminal&#10;term&#10;exclude&#10;search&#10;file" />
+    <property name="SettingsSearchHistory" value="sync&#10;terminal&#10;term&#10;exclude&#10;search" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
     <property name="appcds.runOnSecondStart" value="WS-211.7628.25-fbcc2f64dae385a895381b7a8be68baaa6edcf107221e2d5a65d340a9dad9650" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
@@ -79,8 +80,8 @@
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="flipmoney-history" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625494617114" />
-      <command-history-file filename="flipmoney-history1" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625494617141" />
+      <command-history-file filename="flipmoney-history" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625505110766" />
+      <command-history-file filename="flipmoney-history1" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625505110781" />
     </command-history-files>
   </component>
   <component name="ToolbarSettingsService">

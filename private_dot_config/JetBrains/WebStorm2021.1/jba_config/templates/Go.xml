@@ -1,0 +1,63 @@
+<templateSet group="Go">
+  <template name="imports" value="import (&#10; &quot;$END$&quot;&#10;)&#10;" description="Imports declaration" toReformat="true" toShortenFQNames="true" deactivated="true" />
+  <template name="consts" value="const (&#10; $NAME$ = $VALUE$$END$&#10;)&#10;" description="Constants declaration" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="vars" value="var (&#10; $NAME$ = $VALUE$$END$&#10;)&#10;" description="Variables declaration" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="types" value="type (&#10; $END$&#10;)&#10;" description="Types declaration" toReformat="true" toShortenFQNames="true" deactivated="true" />
+  <template name="p" value="package $NAME$" description="Package declaration" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="iota" value="const $NAME$ $TYPE$ = iota" description="Iota constant declaration" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="fori" value="for $INDEX$ := 0; $INDEX$ &lt; $LIMIT$; $INDEX$++ {&#10; $END$&#10;}" description="Indexed for loop" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="INDEX" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="forr" value="for $KEY$, $VALUE$ := range $COLLECTION$ {&#10; $END$&#10;}" description="For range loop" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="COLLECTION" expression="" defaultValue="&quot;collection&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="goSuggestVariableName()" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="goSuggestVariableName()" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="printf" value="fmt.Printf(&quot;$END$&quot;,$VAR$)" description="printf" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="err" value="if $ERR$ != nil {&#10; $END$&#10;}" description="If error" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ERR" expression="errorVariable()" defaultValue="&quot;err&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="xml" value="xml:&quot;$FIELD_NAME$&quot;" description="xml:&quot;&quot;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FIELD_NAME" expression="snakeCase(fieldName())" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="json" value="json:&quot;$FIELD_NAME$&quot;" description="json:&quot;&quot;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FIELD_NAME" expression="snakeCase(fieldName())" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="main" value="func main() {&#10; $END$&#10;}" description="Main function" toReformat="true" toShortenFQNames="true" deactivated="true" />
+  <template name="init" value="func init() {&#10; $END$&#10;}" description="Init function" toReformat="true" toShortenFQNames="true" deactivated="true" />
+  <template name="meth" value="func ($RECEIVER$ $TYPE_1$) $NAME$($PARAMS$) $TYPE_2$ {   &#10; $END$&#10;}" description="Method" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TYPE_1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RECEIVER" expression="goSuggestVariableName()" defaultValue="&quot;receiver&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_2" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="test" value="func Test$NAME$(t *testing.T) {&#10; $END$&#10;}" description="Test" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="bench" value="func Benchmark$NAME$(b *testing.B) {&#10; for i := 0; i &lt; b.N; i++ {&#10; $END$&#10; }&#10;}" description="Benchmark" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="map" value="map[$KEY_TYPE$]$VALUE_TYPE$" description="Map type" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="KEY_TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name=":" value="$NAME$ := $VALUE$" description="Variable declaration :=" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>

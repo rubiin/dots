@@ -1,0 +1,253 @@
+<project version="4">
+  <component name="DatabaseView">
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="db_lms@aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="db_lms@aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="db_lms: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="db_lms@aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="db_lms: database" type="162271b6:PgImplModel$Database" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="db_lms@aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com" type="feb32156:DbDataSourceImpl" />
+        <item name="db_lms: database" type="162271b6:PgImplModel$Database" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="dcf0d525:DatabaseStructure$RegularFamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lms" type="cc8827a6:DatabaseStructure$DbGroup" />
+        <item name="PostgreSQL - db_customer@demo.rosebaycorporate.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/53243dca-e8ec-4bc3-905b-8ecac9b1aa66/console.sql" />
+      <option value="$PROJECT_DIR$/main.go" />
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/06c0807a-3ec2-4727-a45e-9f4d3749f756/console.sql" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="golang-refresher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="golang-refresher-history" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2503655" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="Pull Requests" order="4" />
+      <window_info id="Space Code Reviews" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32932013" />
+      <window_info anchor="bottom" id="Profiler" order="10" />
+      <window_info anchor="bottom" id="Flow" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32932013" />
+      <window_info anchor="bottom" id="Endpoints" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Services" order="15" show_stripe_button="false" weight="0.32932013" />
+      <window_info anchor="right" id="Space Automation" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.33004385" />
+    </layout>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Services</value>
+      <value>Database Changes</value>
+      <value>Database</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="Trusted.Project.Settings" hasCheckedIfOldProject="true" trusted="YES" />
+  <component name="WindowStateProjectService">
+    <state x="480" y="62" key="#GOPATH" timestamp="1622132268283">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="480" y="62" key="#GOPATH/0.36.1368.732@0.36.1368.732" timestamp="1622132268283" />
+    <state x="262" y="96" width="844" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622470683638">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="262" y="96" width="844" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1368.732@0.36.1368.732" timestamp="1622470683638" />
+    <state x="468" y="158" key="FileChooserDialogImpl" timestamp="1621570462439">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="468" y="158" key="FileChooserDialogImpl/0.36.1368.732@0.36.1368.732" timestamp="1621570462439" />
+    <state width="904" height="204" key="GridCell.Tab.0.bottom" timestamp="1623001229689">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.bottom/0.36.1368.732@0.36.1368.732" timestamp="1623001229689" />
+    <state width="904" height="204" key="GridCell.Tab.0.center" timestamp="1623001229681">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.center/0.36.1368.732@0.36.1368.732" timestamp="1623001229681" />
+    <state width="904" height="204" key="GridCell.Tab.0.left" timestamp="1623001229680">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.left/0.36.1368.732@0.36.1368.732" timestamp="1623001229680" />
+    <state width="904" height="204" key="GridCell.Tab.0.right" timestamp="1623001229688">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state width="904" height="204" key="GridCell.Tab.0.right/0.36.1368.732@0.36.1368.732" timestamp="1623001229688" />
+    <state x="181" y="36" width="1007" height="732" key="SettingsEditor" timestamp="1621578532314">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="181" y="36" width="1007" height="732" key="SettingsEditor/0.36.1368.732@0.36.1368.732" timestamp="1621578532314" />
+    <state x="117" y="304" width="1132" height="198" key="data.grid.dml.preview.dialog" timestamp="1621579109127">
+      <screen x="0" y="36" width="1368" height="732" />
+    </state>
+    <state x="117" y="304" width="1132" height="198" key="data.grid.dml.preview.dialog/0.36.1368.732@0.36.1368.732" timestamp="1621579109127" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///tmp/kite_tutorial.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53243dca-e8ec-4bc3-905b-8ecac9b1aa66/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53243dca-e8ec-4bc3-905b-8ecac9b1aa66/schema/flipmoney-dev/table/paymentrequests">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1621588657478" presentationMode="TABLE" projectRestartId="b6fb20ff-f3ce-4aea-ac78-564613a1176e" pageSize="20">
+          <filtering>
+            <filter text="{}" />
+            <filter text="{_id: '60a615d928ec2370f701a825'}" />
+          </filtering>
+          <sorting>
+            <sort text="{}" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06c0807a-3ec2-4727-a45e-9f4d3749f756/database/db_lms/schema/public/table/StatementHist">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1622470942505" presentationMode="TABLE" projectRestartId="d8f96a43-99ca-448d-9f48-f385a11b44ad" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06c0807a-3ec2-4727-a45e-9f4d3749f756/database/db_lms/schema/public/table/TransactionDetailsHist">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1622471022861" presentationMode="TABLE" projectRestartId="d8f96a43-99ca-448d-9f48-f385a11b44ad" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/06c0807a-3ec2-4727-a45e-9f4d3749f756/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06c0807a-3ec2-4727-a45e-9f4d3749f756/database/db_lms/schema/public/table/outstanding">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1623000832073" presentationMode="TABLE" projectRestartId="ffb07f6c-fddb-4460-8444-b4fde5195952" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06c0807a-3ec2-4727-a45e-9f4d3749f756/database/db_lms/schema/public/table/StatementHistory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state lastOpenedTimestamp="1623000833368" presentationMode="TABLE" projectRestartId="ffb07f6c-fddb-4460-8444-b4fde5195952" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <sorting>
+            <sort text="" />
+          </sorting>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

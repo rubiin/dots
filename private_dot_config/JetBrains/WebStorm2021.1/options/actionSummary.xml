@@ -4,7 +4,7 @@
       <i c="55" l="1625471511538" />
     </e>
     <e n="$Undo">
-      <i c="14" l="1625471068776" />
+      <i c="17" l="1625473284103" />
     </e>
     <e n="About">
       <i c="1" l="1616736576255" />
@@ -16,7 +16,7 @@
       <i c="15" l="1617885300970" />
     </e>
     <e n="CloseAllEditorsButActive">
-      <i c="1" l="1625470869350" />
+      <i c="2" l="1625492978524" />
     </e>
     <e n="CollapseRegion">
       <i c="1" l="1625471233991" />
@@ -73,34 +73,43 @@
       <i c="2" l="1616481447838" />
     </e>
     <e n="EditorBackSpace">
-      <i c="183" l="1625471593294" />
+      <i c="341" l="1625496349517" />
     </e>
     <e n="EditorChooseLookupItem">
-      <i c="15" l="1625471448949" />
+      <i c="33" l="1625496267638" />
     </e>
     <e n="EditorCopy">
-      <i c="37" l="1625471589222" />
+      <i c="50" l="1625496343955" />
     </e>
     <e n="EditorDelete">
       <i c="3" l="1617612496679" />
     </e>
+    <e n="EditorDown">
+      <i c="10" l="1625496250439" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="3" l="1625493744134" />
+    </e>
     <e n="EditorEnter">
-      <i c="20" l="1625471541426" />
+      <i c="45" l="1625496295595" />
     </e>
     <e n="EditorLeft">
-      <i c="32" l="1625471592881" />
+      <i c="55" l="1625496039254" />
     </e>
     <e n="EditorPaste">
-      <i c="44" l="1625471598473" />
+      <i c="62" l="1625496346038" />
     </e>
     <e n="EditorRight">
-      <i c="27" l="1625471540663" />
+      <i c="34" l="1625496340964" />
     </e>
     <e n="EditorStartNewLine">
       <i c="1" l="1616586198824" />
     </e>
+    <e n="EditorTab">
+      <i c="3" l="1625496241492" />
+    </e>
     <e n="EditorUp">
-      <i c="34" l="1625471541792" />
+      <i c="35" l="1625495978923" />
     </e>
     <e n="ExportSettings">
       <i c="1" l="1616736588177" />
@@ -108,20 +117,23 @@
     <e n="ExpressionTypeInfo">
       <i c="3" l="1625471509535" />
     </e>
+    <e n="Find">
+      <i c="6" l="1625493259333" />
+    </e>
     <e n="FindInPath">
-      <i c="5" l="1625471403391" />
+      <i c="6" l="1625472472567" />
     </e>
     <e n="FindUsages">
       <i c="1" l="1625471047313" />
     </e>
     <e n="GotoAction">
-      <i c="1" l="1625471146395" />
+      <i c="4" l="1625494748729" />
     </e>
     <e n="GotoDeclaration">
-      <i c="4" l="1625471584531" />
+      <i c="11" l="1625493802014" />
     </e>
     <e n="GotoFile">
-      <i c="8" l="1625471352009" />
+      <i c="12" l="1625494772476" />
     </e>
     <e n="HideAllWindows">
       <i c="1" l="1616592401200" />
@@ -154,7 +166,7 @@
       <i c="2" l="1625463351009" />
     </e>
     <e n="Register">
-      <i c="3" l="1616746375671" />
+      <i c="4" l="1625494642198" />
     </e>
     <e n="RemoveBom">
       <i c="1" l="1625318897226" />
@@ -169,7 +181,7 @@
       <i c="1" l="1616480883349" />
     </e>
     <e n="ShowSettings">
-      <i c="21" l="1625471719318" />
+      <i c="24" l="1625492897871" />
     </e>
     <e n="Table-selectNextColumn">
       <i c="16" l="1616562676987" />
@@ -201,11 +213,17 @@
     <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$2">
       <i c="21" l="1616750652797" />
     </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="1" l="1625493260235" />
+    </e>
     <e n="com.intellij.find.impl.FindPopupPanel$MyEnterAction">
       <i c="2" l="1625466721213" />
     </e>
     <e n="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction">
       <i c="6" l="1625466751670" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1625471813619" />
     </e>
     <e n="com.intellij.ide.plugins.PluginManagerConfigurable$InstalledSearchOptionAction">
       <i c="1" l="1616592936649" />
@@ -219,8 +237,14 @@
     <e n="com.intellij.notification.EventLogConsole$ClearLogAction">
       <i c="1" l="1616592626564" />
     </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$MarkupModelDelegateAction">
+      <i c="1" l="1625493133899" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
+      <i c="3" l="1625493154274" />
+    </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="67" l="1625471613464" />
+      <i c="76" l="1625495749016" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
       <i c="1" l="1625466699948" />
@@ -241,7 +265,7 @@
       <i c="3" l="1625462807084" />
     </e>
     <e n="org.jetbrains.plugins.terminal.TerminalView$1">
-      <i c="1" l="1625464568354" />
+      <i c="2" l="1625472284206" />
     </e>
   </component>
 </application>

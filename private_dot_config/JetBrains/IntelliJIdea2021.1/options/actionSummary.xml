@@ -1,0 +1,250 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="90" l="1625228600898" />
+    </e>
+    <e n="$Undo">
+      <i c="21" l="1622470468981" />
+    </e>
+    <e n="About">
+      <i c="1" l="1616736576255" />
+    </e>
+    <e n="CWMHostShowPopupAction">
+      <i c="2" l="1621570532843" />
+    </e>
+    <e n="CaptureCPUUsageData">
+      <i c="1" l="1621190704387" />
+    </e>
+    <e n="CheckForUpdate">
+      <i c="33" l="1624989553983" />
+    </e>
+    <e n="Console.Jdbc.Execute">
+      <i c="50" l="1622551592050" />
+    </e>
+    <e n="Console.Jdbc.Terminate">
+      <i c="2" l="1616586048120" />
+    </e>
+    <e n="Console.TableResult.AddRow">
+      <i c="2" l="1620828029827" />
+    </e>
+    <e n="Console.TableResult.Cancel">
+      <i c="3" l="1620900793393" />
+    </e>
+    <e n="Console.TableResult.CloneRow">
+      <i c="2" l="1622471386002" />
+    </e>
+    <e n="Console.TableResult.DeleteRows">
+      <i c="15" l="1622471394933" />
+    </e>
+    <e n="Console.TableResult.PreviewDml">
+      <i c="1" l="1621579106899" />
+    </e>
+    <e n="Console.TableResult.Reload">
+      <i c="41" l="1622471256198" />
+    </e>
+    <e n="Console.TableResult.Submit">
+      <i c="39" l="1622471398553" />
+    </e>
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1616481103401" />
+    </e>
+    <e n="DatabaseView.AddActionGroupPopup">
+      <i c="7" l="1621577088639" />
+    </e>
+    <e n="DatabaseView.CloseConnectionAction">
+      <i c="11" l="1616672739313" />
+    </e>
+    <e n="DatabaseView.CopyAction">
+      <i c="6" l="1617181205066" />
+    </e>
+    <e n="DatabaseView.DropAction">
+      <i c="3" l="1616749829125" />
+    </e>
+    <e n="DatabaseView.PropertiesAction">
+      <i c="8" l="1622470447921" />
+    </e>
+    <e n="DatabaseView.Refresh">
+      <i c="22" l="1622470313443" />
+    </e>
+    <e n="DatabaseView.Tools.TruncateTableAction">
+      <i c="1" l="1617611873159" />
+    </e>
+    <e n="EditCustomProperties">
+      <i c="1" l="1616481068787" />
+    </e>
+    <e n="EditCustomVmOptions">
+      <i c="2" l="1616481447838" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="312" l="1622471308254" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="40" l="1622471404229" />
+    </e>
+    <e n="EditorCopy">
+      <i c="34" l="1621579365414" />
+    </e>
+    <e n="EditorDelete">
+      <i c="3" l="1617612496679" />
+    </e>
+    <e n="EditorDown">
+      <i c="17" l="1622471295208" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="6" l="1622471401984" />
+    </e>
+    <e n="EditorEnter">
+      <i c="31" l="1622471285250" />
+    </e>
+    <e n="EditorLeft">
+      <i c="101" l="1621577305823" />
+    </e>
+    <e n="EditorPaste">
+      <i c="66" l="1622470678312" />
+    </e>
+    <e n="EditorRight">
+      <i c="65" l="1622471240862" />
+    </e>
+    <e n="EditorStartNewLine">
+      <i c="1" l="1616586198824" />
+    </e>
+    <e n="EditorTab">
+      <i c="3" l="1621571404759" />
+    </e>
+    <e n="EditorUp">
+      <i c="15" l="1621577332292" />
+    </e>
+    <e n="ExportSettings">
+      <i c="1" l="1616736588177" />
+    </e>
+    <e n="FileChooser.ShowHiddens">
+      <i c="1" l="1621570353560" />
+    </e>
+    <e n="Go.NewGoFile">
+      <i c="1" l="1621570434084" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="1" l="1616592401200" />
+    </e>
+    <e n="ImportSettings">
+      <i c="1" l="1616480769750" />
+    </e>
+    <e n="InvalidateCaches">
+      <i c="1" l="1623348214907" />
+    </e>
+    <e n="Jdbc.OpenConsole.Any">
+      <i c="11" l="1622470723640" />
+    </e>
+    <e n="Jdbc.OpenEditor.Data">
+      <i c="2" l="1620828096822" />
+    </e>
+    <e n="ModifyObject">
+      <i c="19" l="1620828215801" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1621570326672" />
+    </e>
+    <e n="ProductivityGuide">
+      <i c="1" l="1616998497120" />
+    </e>
+    <e n="Register">
+      <i c="6" l="1625228579002" />
+    </e>
+    <e n="RemoteServers.ConnectServer">
+      <i c="1" l="1621190717615" />
+    </e>
+    <e n="RenameElement">
+      <i c="4" l="1617626458824" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1620900808029" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1623001234180" />
+    </e>
+    <e n="ShowLog">
+      <i c="1" l="1616480883349" />
+    </e>
+    <e n="ShowSettings">
+      <i c="9" l="1621578436764" />
+    </e>
+    <e n="Table-selectNextColumn">
+      <i c="16" l="1616562676987" />
+    </e>
+    <e n="TemplateProjectProperties">
+      <i c="1" l="1616593017055" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1616482014147" />
+    </e>
+    <e n="com.goide.project.GoModuleInitializerStartupActivity$4">
+      <i c="1" l="1622132263845" />
+    </e>
+    <e n="com.goide.sdk.local.GoAddLocalSdkAction">
+      <i c="2" l="1621570397319" />
+    </e>
+    <e n="com.intellij.database.dataSource.LocalDataSourceManager$2">
+      <i c="4" l="1621577001022" />
+    </e>
+    <e n="com.intellij.database.dataSource.url.ui.DynamicJdbcUrlEditor$7">
+      <i c="1" l="1616500817129" />
+    </e>
+    <e n="com.intellij.database.run.ui.grid.GridPanelWithEditor$ApplyAction">
+      <i c="6" l="1621577323834" />
+    </e>
+    <e n="com.intellij.database.run.ui.grid.editors.DefaultBooleanEditorFactory$ChooseBooleanAction">
+      <i c="5" l="1622471113179" />
+    </e>
+    <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$2">
+      <i c="42" l="1621579367335" />
+    </e>
+    <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$4">
+      <i c="2" l="1621507321946" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1620796539959" />
+    </e>
+    <e n="com.intellij.ide.actions.SettingsEntryPointAction$2">
+      <i c="1" l="1623001236267" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerConfigurable$InstalledSearchOptionAction">
+      <i c="1" l="1616592936649" />
+    </e>
+    <e n="com.intellij.ide.plugins.PluginManagerMain$2">
+      <i c="1" l="1624989563540" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+      <i c="2" l="1620828553905" />
+    </e>
+    <e n="com.intellij.notification.EventLogConsole$ClearLogAction">
+      <i c="1" l="1616592626564" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="80" l="1623000849364" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateChecker$showNotification$1">
+      <i c="3" l="1622562704273" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateChecker$showUpdateResult$5$1">
+      <i c="7" l="1624989531011" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="102" l="1622471377453" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1622470730286" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="3" l="1621570459599" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="1" l="1621570818789" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="2" l="1621571445759" />
+    </e>
+    <e n="performancePlugin.ShowMemoryDialogAction">
+      <i c="1" l="1622132272362" />
+    </e>
+  </component>
+</application>

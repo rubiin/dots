@@ -1,0 +1,46 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db_merchant@demo.rosebaycorporate.com" group="lms" uuid="83add687-d939-4349-96a2-d161fcae7024">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://demo.rosebaycorporate.com:4088/db_merchant</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - db_customer@demo.rosebaycorporate.com" group="lms" uuid="156da36e-fdc5-4b2f-aed5-44f278a45fd8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://demo.rosebaycorporate.com:4088/db_customer</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db_notification@demo.rosebaycorporate.com" group="lms" uuid="2347d4b2-fab1-4419-a3ca-e90a174c6fa5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://demo.rosebaycorporate.com:4088/db_notification</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db_lms@aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com" group="lms" uuid="06c0807a-3ec2-4727-a45e-9f4d3749f756">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com:5432/db_lms</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="orbis_uat@sa-devdb.database.windows.net" group="orbis" uuid="85449529-bc1d-4294-8356-e6ef7b0a1f18">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://sa-devdb.database.windows.net:1433;database=orbis_uat</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="orbis_dev@sa-devdb.database.windows.net" group="orbis" uuid="d66ce000-6e07-45ba-99fc-879b830e2ed9">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://sa-devdb.database.windows.net:1433;database=orbis_dev</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="orbis_dev_test@sa-devdb.database.windows.net" group="orbis" uuid="fd0a4ee7-fd0d-4e87-9dde-7effaab90a65">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://sa-devdb.database.windows.net:1433;database=orbis_dev_test</jdbc-url>
+    </data-source>
+  </component>
+</application>

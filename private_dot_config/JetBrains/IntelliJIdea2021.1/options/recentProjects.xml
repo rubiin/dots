@@ -1,0 +1,57 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/orbis-employee">
+          <value>
+            <RecentProjectMetaInfo frameTitle="orbis-employee" projectWorkspaceId="1q98zhVKOSDJLPyCK955qsiXh5x">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-203.7717.56" />
+              <option name="buildTimestamp" value="1615801814680" />
+              <frame x="0" y="44" width="1368" height="724" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1616480711411" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/JetBrains Medicine">
+          <value>
+            <RecentProjectMetaInfo frameTitle="JetBrains Medicine – orbis…v_test.dbo.Globa…cyTemp [orbis_dev_test@sa…tabase.windows.net]" projectWorkspaceId="1qWggIJNZLjJQj4CLbfGJa5tCRK">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-203.7717.56" />
+              <option name="buildTimestamp" value="1615801840797" />
+              <frame x="0" y="40" width="1368" height="728" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1617200874719" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Projects/Nodejs/orbis-employee">
+          <value>
+            <RecentProjectMetaInfo frameTitle="orbis-employee" projectWorkspaceId="1rvW2Fogar9gXdDbCQV9a8mgn4M">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7142.45" />
+              <option name="buildTimestamp" value="1619777559572" />
+              <frame x="0" y="36" width="1368" height="732" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1620796542207" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo frameTitle="golang-refresher" opened="true" projectWorkspaceId="1spXI3785OMvBrhcxVdCA0h8689">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-211.7142.45" />
+              <option name="buildTimestamp" value="1619777542506" />
+              <frame x="0" y="36" width="1368" height="732" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1621570424135" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

@@ -35,23 +35,23 @@
   <component name="PropertiesComponent">
     <property name="DbRenameDialog.previewExpanded" value="true" />
     <property name="GeneralSettings.initiallyConfigured" value="true" />
-    <property name="InstalledPluginsSearchHistory" value="http cl&#10;http c&#10;http&#10;htt&#10;ht" />
+    <property name="InstalledPluginsSearchHistory" value="terminal&#10;term&#10;te&#10;tabnine&#10;tabni" />
     <property name="LayoutCode.optimizeImports" value="true" />
     <property name="LayoutCode.processChangedText" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
-    <property name="MarketplacePluginsSearchHistory" value="http&#10;vuter&#10;vu&#10;v&#10;vue" />
+    <property name="MarketplacePluginsSearchHistory" value="tabnine&#10;http&#10;vuter&#10;vu&#10;v" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="PluginConfigurable.selectionTab" value="1" />
-    <property name="SettingsSearchHistory" value="term&#10;exclude&#10;search&#10;file" />
+    <property name="SettingsSearchHistory" value="terminal&#10;term&#10;exclude&#10;search&#10;file" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
-    <property name="appcds.runOnSecondStart" value="WS-211.7628.25-d28e1aa74464dcfb7f000c55a0bee3b68c2ee5590bd27509c3bddda3246a630c" />
+    <property name="appcds.runOnSecondStart" value="WS-211.7628.25-fbcc2f64dae385a895381b7a8be68baaa6edcf107221e2d5a65d340a9dad9650" />
     <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
     <property name="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.previewExpanded" value="true" />
     <property name="completion.ml.enabled.notification.shown" value="true" />
     <property name="evlsprt3.203" value="16" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney&#10;/home/rubin/Desktop/Projects/Nodejs/cron-rl&#10;/home/rubin/Desktop/Projects/Nodejs/orbis-employee&#10;/home/rubin/settings.zip&#10;/home/rubin/orbis-employee" />
     <property name="file.gist.reindex.count" value="35" />
-    <property name="fileTypeChangedCounter" value="3" />
+    <property name="fileTypeChangedCounter" value="5" />
     <property name="fileTypeDetectors" value="com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
     <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
     <property name="ide.memory.adjusted" value="true" />
@@ -79,8 +79,8 @@
   </component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="flipmoney-history" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625463130908" />
-      <command-history-file filename="flipmoney-history1" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625464568520" />
+      <command-history-file filename="flipmoney-history" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625494617114" />
+      <command-history-file filename="flipmoney-history1" project-path="$USER_HOME$/Desktop/Projects/Nodejs/flipmoney" last-access-time="1625494617141" />
     </command-history-files>
   </component>
   <component name="ToolbarSettingsService">

@@ -1,0 +1,83 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/.asdf/shims/node">
+      <version-cache version="12.22.1" last-modified="1621523044611" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.asdf/installs/nodejs/12.22.1/bin/node">
+      <version-cache version="12.22.1" last-modified="1617721616000" />
+    </local-interpreter>
+  </component>
+  <component name="ProjectPluginTrackerManager">
+    <trackers>
+      <map>
+        <entry key="1rvW2Fogar9gXdDbCQV9a8mgn4M">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1spXI3785OMvBrhcxVdCA0h8689">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DO_NOT_SHOW_NOTIFICATION_ABOUT_EMPTY_GOPATH" value="true" />
+    <property name="DbRenameDialog.previewExpanded" value="true" />
+    <property name="EXPORTABILITY_SORTER.file.structure.state" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="IdeaUltimate.EnableRunTargetsOnce" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="golan&#10;gola&#10;gol&#10;go&#10;g" />
+    <property name="MarketplacePluginsSearchHistory" value="go&#10;golan&#10;settings&#10;setting&#10;one dark" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="appcds.runOnSecondStart" value="IU-211.7628.21-555a57935173f9c11cfde2518aa6f73a6d6a11bd21e33d1b3eac42ad699118a4" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog.previewExpanded" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt.211" value="179c177590a" />
+    <property name="evlsprt2.211" value="179767e29e5" />
+    <property name="evlsprt3.203" value="16" />
+    <property name="experimentalFeature.run.targets" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/.asdf/installs/golang/1.16.4/go&#10;/home/rubin/.asdf/installs/golang/1.16.2/go&#10;/home/rubin/Desktop/Projects/Nodejs/orbis-employee&#10;/home/rubin/settings.zip&#10;/home/rubin/orbis-employee" />
+    <property name="file.gist.reindex.count" value="106" />
+    <property name="fileTypeChangedCounter" value="28" />
+    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector" />
+    <property name="go.enabled.exportability.sorter" value="true" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="got.it.tooltip.database.schema.control.got.it" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="IU-211.7628.21" />
+    <property name="ide.updates.whats.new.shown.for" value="211" />
+    <property name="installed.kotlin.plugin.version" value="211-1.5.0-release-759-IJ6693.72" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="kotlin.plugin.releaseDate" value="211-1.5.0-release-759-IJ6693.72:2021-04-28" />
+    <property name="lastSeenTip" value="neue-Multiselection2.html" />
+    <property name="lastTimeTipsWereShown" value="1616480719049" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.asdf/installs/golang/1.16.4/go" />
+    <property name="log.trace.categories" value="#com.jetbrains.rdserver.requests&#10;#com.jetbrains.rd.ide.document&#10;#com.jetbrains.rdserver.document&#10;#com.jetbrains.rdserver.editors&#10;#com.jetbrains.rdserver.actions" />
+    <property name="org.jetbrains.plugins.go.LAST_UPDATE" value="1622470286909" />
+    <property name="org.jetbrains.plugins.go.LAST_VERSION" value="211.7142.36" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1616480710207" />
+    <property name="project.wizard.group" value="WEB_MODULE" />
+    <property name="seenTips" value="neue-Multiselection2.html" />
+    <property name="shared.index.infrastructure.prop" value="4" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.2.2" />
+  </component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="golang-refresher-history" project-path="$USER_HOME$/IdeaProjects/untitled" last-access-time="1625228436099" />
+    </command-history-files>
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
+  </component>
+</application>

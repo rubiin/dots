@@ -84,6 +84,7 @@ com.jetbrains.performancePlugin
 com.jetbrains.plugins.jade
 com.jetbrains.plugins.meteor
 com.jetbrains.plugins.webDeployment
+com.jetbrains.restClient
 com.jetbrains.restWebServices
 com.jetbrains.sh
 cucumber-groovy

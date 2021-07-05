@@ -1,0 +1,83 @@
+<application>
+  <component name="dataSourceStorageLocal" created-in="IU-211.7628.21">
+    <data-source name="db_merchant@demo.rosebaycorporate.com" uuid="83add687-d939-4349-96a2-d161fcae7024">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <secret-storage>forget</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="PostgreSQL - db_customer@demo.rosebaycorporate.com" uuid="156da36e-fdc5-4b2f-aed5-44f278a45fd8">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <secret-storage>forget</secret-storage>
+      <user-name>sarborbis</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="db_notification@demo.rosebaycorporate.com" uuid="2347d4b2-fab1-4419-a3ca-e90a174c6fa5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <secret-storage>forget</secret-storage>
+      <schema-mapping />
+    </data-source>
+    <data-source name="db_lms@aeonlms.cegmhknb2qgj.us-east-2.rds.amazonaws.com" uuid="06c0807a-3ec2-4727-a45e-9f4d3749f756">
+      <database-info product="PostgreSQL" version="12.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.5" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="orbis_uat@sa-devdb.database.windows.net" uuid="85449529-bc1d-4294-8356-e6ef7b0a1f18">
+      <database-info product="Microsoft SQL Server" version="12.00.2148" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2148" exact-driver-version="9.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sarborbis</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="orbis_dev@sa-devdb.database.windows.net" uuid="d66ce000-6e07-45ba-99fc-879b830e2ed9">
+      <database-info product="Microsoft SQL Server" version="12.00.2000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2000" exact-driver-version="9.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sarborbis</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="orbis_dev_test@sa-devdb.database.windows.net" uuid="fd0a4ee7-fd0d-4e87-9dde-7effaab90a65">
+      <database-info product="Microsoft SQL Server" version="12.00.2148" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 9.2 for SQL Server" driver-version="9.2.0.0" dbms="AZURE" exact-version="12.0.2148" exact-driver-version="9.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sarborbis</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</application>

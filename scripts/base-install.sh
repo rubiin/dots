@@ -8,6 +8,9 @@ yay -Syyu alacritty asdf-vm docker docker-compose python-pip mousepad nano skype
 
 echo 'Yay Installation Done with all its packages'
 
+echo 'Installing pacman packages'
+sudo pacman -S handbrake
+
 echo 'Executing post install steps for docker'
 
 # docker post install

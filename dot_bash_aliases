@@ -15,7 +15,7 @@ alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
 alias update-all='yay -Syyu --noconfirm && brew update && brew upgrade && asdf plugin update --all && omz update && code_update_extensions'
 alias rate-and-update='export TMPFILE="$(mktemp)"; \
 	sudo true; \
-	rate-arch-mirrors --max-delay=21600 | tee -a $TMPFILE \
+	rate-mirrors --max-delay=21600 | tee -a $TMPFILE \
 	  && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
 	  && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
 	  && ua-drop-caches \ && update-all'
@@ -48,7 +48,7 @@ for ext in `code --list-extensions`
 
 ffmpeg_convert(){
   for i in *.mp4;
-  do ffmpeg -n -loglevel error -i "$i" -vcodec libx264 -crf 28 -preset faster -tune film "cc${i}"; 
+  do ffmpeg -n  -i "$i" -vcodec libx264 -v warning -hide_banner -stats -crf 28 -preset faster -tune film "cc${i}"; 
   done
 }
 

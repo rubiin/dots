@@ -3,8 +3,8 @@
 # Installs necessary packages like font and ides
 
 yay -S brave-bin chezmoi
-yay -S plank-git
-yay -Syyu alacritty asdf-vm docker docker-compose python-pip mousepad nano skypeforlinux-stable-bin zoom mojave-gtk-theme-git visual-studio-code-insiders-bin adwaita-icon-theme capitaine-cursors gparted htop la-capitaine-icon-theme neovim postman-bin rate-arch-mirrors spectacle ttf-bitstream-vera ttf-dejavu ttf-font-awesome ttf-hack ttf-liberation ttf-ms-fonts ttf-nerd-fonts-symbols-mono ttf-twemoji-color uuid vlc wps-office wps-office-fonts youtube-dl gwenview ktorrent persepolis intellij-idea-ultimate-edition nordvpn-bin --ignore linux
+yay -S plank
+yay -Syyu alacritty asdf-vm docker docker-compose python-pip mousepad nano skypeforlinux-stable-bin zoom mojave-gtk-theme-git visual-studio-code-insiders-bin adwaita-icon-theme capitaine-cursors gparted htop la-capitaine-icon-theme neovim postman-bin rate-mirrors-bin spectacle ttf-bitstream-vera ttf-dejavu ttf-font-awesome ttf-hack ttf-liberation ttf-ms-fonts ttf-nerd-fonts-symbols-mono ttf-twemoji-color uuid vlc wps-office wps-office-fonts youtube-dl gwenview ktorrent persepolis intellij-idea-ultimate-edition nordvpn-bin --ignore linux
 
 echo 'Yay Installation Done with all its packages'
 
